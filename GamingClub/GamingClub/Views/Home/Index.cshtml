@@ -1,0 +1,121 @@
+﻿@model GamingClub.Models.Home.GreetingModel
+@using Microsoft.AspNetCore.Identity
+
+@{
+    ViewData["Title"] = "Главная";
+}
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <style>
+        /* Стили для шапки */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #333;
+            color: white;
+        }
+
+        .header a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .header a:hover {
+            text-decoration: underline;
+        }
+
+        /* Стили для аккордеона */
+        .accordion {
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .accordion-item {
+            border: 1px solid #ccc;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+
+        .accordion-header {
+            background-color: #f1f1f1;
+            padding: 10px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .accordion-content {
+            padding: 10px;
+            display: none; /* Скрываем содержимое по умолчанию */
+        }
+
+        .accordion-item.active .accordion-content {
+            display: block; /* Показываем содержимое при активации */
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div>Добро пожаловать в GamingClub!</div>
+       @*  <div>
+            @if (SignInManager.IsSignedIn(User))
+            {
+                <a href="/Identity/Account/Manage">@UserManager.GetUserName(User)</a>
+            }
+            else
+            {
+                <a href="/Identity/Account/Login">ВОЙТИ</a>
+            }
+        </div> *@
+    </div>
+    <p>@Model.Message</p>
+
+    <!-- Аккордеон -->
+    <div class="accordion">
+        <!-- Секция 1 -->
+        <div class="accordion-item">
+            <div class="accordion-header">Аренда компьютеров</div>
+            <div class="accordion-content">
+                <p>Мы предлагаем мощные компьютеры для игр и работы.</p>
+                <p>***ПРИМЕРЫ***</p>
+            </div>
+        </div>
+
+        <!-- Секция 2 -->
+        <div class="accordion-item">
+            <div class="accordion-header">Проведение турниров</div>
+            <div class="accordion-content">
+                <p>Организуем киберспортивные турниры с призами.</p>
+                <p>***ПРИМЕРЫ***</p>
+            </div>
+        </div>
+
+        <!-- Секция 3 -->
+        <div class="accordion-item">
+            <div class="accordion-header">Коворкинг</div>
+            <div class="accordion-content">
+                <p>Удобное рабочее место с доступом в интернет.</p>
+                <p>***ПРИМЕРЫ***</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Скрипт для аккордеона -->
+    <script>
+        document.querySelectorAll('.accordion-header').forEach(header => {
+            header.addEventListener('click', () => {
+                const item = header.parentElement;
+                item.classList.toggle('active');
+            });
+        });
+    </script>
+</body>
+</html>

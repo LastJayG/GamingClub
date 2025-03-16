@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GamingClub", "GamingClub\GamingClub.csproj", "{2AD1D4E0-1CF1-4249-B293-C8CCD3CE1D1C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GamingClub", "GamingClub\GamingClub.csproj", "{2AD1D4E0-1CF1-4249-B293-C8CCD3CE1D1C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
