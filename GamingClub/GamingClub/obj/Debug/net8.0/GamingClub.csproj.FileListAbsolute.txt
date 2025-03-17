@@ -26,3 +26,4 @@ D:\Универ\Курсовые\ООП, курсовая, 3 сем\GamingClub\G
 D:\Универ\Курсовые\ООП, курсовая, 3 сем\GamingClub\GamingClub\obj\Debug\net8.0\GamingClub.sourcelink.json
 D:\Универ\Курсовые\ООП, курсовая, 3 сем\GamingClub\GamingClub\obj\Debug\net8.0\GamingClub.RazorAssemblyInfo.cache
 D:\Универ\Курсовые\ООП, курсовая, 3 сем\GamingClub\GamingClub\obj\Debug\net8.0\GamingClub.RazorAssemblyInfo.cs
+D:\Универ\Курсовые\ООП, курсовая, 3 сем\GamingClub\GamingClub\bin\Debug\net8.0\GamingClub.staticwebassets.runtime.json

@@ -1,11 +1,19 @@
 {
   "Version": 1,
-  "Hash": "jV1IxW3G9W/wPSiL/+hXEzfhjb7tYu3M+NQDnZ6RtP4=",
+  "Hash": "8WStLFNgSMGKUIci2i4djE7OZ6EorKxDIP//YzKK3k8=",
   "Source": "GamingClub",
   "BasePath": "_content/GamingClub",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "GamingClub\\wwwroot",
+      "Source": "GamingClub",
+      "ContentRoot": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\",
+      "BasePath": "_content/GamingClub",
+      "Pattern": "**"
+    }
+  ],
   "Assets": []
 }

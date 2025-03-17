@@ -7,28 +7,40 @@
       "RelativeMoniker": "D:0:0:{2AD1D4E0-1CF1-4249-B293-C8CCD3CE1D1C}|GamingClub\\GamingClub.csproj|solutionrelative:gamingclub\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2AD1D4E0-1CF1-4249-B293-C8CCD3CE1D1C}|GamingClub\\GamingClub.csproj|d:\\\u0443\u043D\u0438\u0432\u0435\u0440\\\u043A\u0443\u0440\u0441\u043E\u0432\u044B\u0435\\\u043E\u043E\u043F, \u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F, 3 \u0441\u0435\u043C\\gamingclub\\gamingclub\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2AD1D4E0-1CF1-4249-B293-C8CCD3CE1D1C}|GamingClub\\GamingClub.csproj|solutionrelative:gamingclub\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2AD1D4E0-1CF1-4249-B293-C8CCD3CE1D1C}|GamingClub\\GamingClub.csproj|d:\\\u0443\u043D\u0438\u0432\u0435\u0440\\\u043A\u0443\u0440\u0441\u043E\u0432\u044B\u0435\\\u043E\u043E\u043F, \u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F, 3 \u0441\u0435\u043C\\gamingclub\\gamingclub\\views\\account\\account.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2AD1D4E0-1CF1-4249-B293-C8CCD3CE1D1C}|GamingClub\\GamingClub.csproj|solutionrelative:gamingclub\\views\\account\\account.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2AD1D4E0-1CF1-4249-B293-C8CCD3CE1D1C}|GamingClub\\GamingClub.csproj|d:\\\u0443\u043D\u0438\u0432\u0435\u0440\\\u043A\u0443\u0440\u0441\u043E\u0432\u044B\u0435\\\u043E\u043E\u043F, \u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F, 3 \u0441\u0435\u043C\\gamingclub\\gamingclub\\viewmodels\\home\\aboutviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2AD1D4E0-1CF1-4249-B293-C8CCD3CE1D1C}|GamingClub\\GamingClub.csproj|solutionrelative:gamingclub\\viewmodels\\home\\aboutviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2AD1D4E0-1CF1-4249-B293-C8CCD3CE1D1C}|GamingClub\\GamingClub.csproj|d:\\\u0443\u043D\u0438\u0432\u0435\u0440\\\u043A\u0443\u0440\u0441\u043E\u0432\u044B\u0435\\\u043E\u043E\u043F, \u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F, 3 \u0441\u0435\u043C\\gamingclub\\gamingclub\\models\\home\\greetingmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2AD1D4E0-1CF1-4249-B293-C8CCD3CE1D1C}|GamingClub\\GamingClub.csproj|solutionrelative:gamingclub\\models\\home\\greetingmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2AD1D4E0-1CF1-4249-B293-C8CCD3CE1D1C}|GamingClub\\GamingClub.csproj|d:\\\u0443\u043D\u0438\u0432\u0435\u0440\\\u043A\u0443\u0440\u0441\u043E\u0432\u044B\u0435\\\u043E\u043E\u043F, \u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F, 3 \u0441\u0435\u043C\\gamingclub\\gamingclub\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AD1D4E0-1CF1-4249-B293-C8CCD3CE1D1C}|GamingClub\\GamingClub.csproj|solutionrelative:gamingclub\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2AD1D4E0-1CF1-4249-B293-C8CCD3CE1D1C}|GamingClub\\GamingClub.csproj|d:\\\u0443\u043D\u0438\u0432\u0435\u0440\\\u043A\u0443\u0440\u0441\u043E\u0432\u044B\u0435\\\u043E\u043E\u043F, \u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F, 3 \u0441\u0435\u043C\\gamingclub\\gamingclub\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{2AD1D4E0-1CF1-4249-B293-C8CCD3CE1D1C}|GamingClub\\GamingClub.csproj|solutionrelative:gamingclub\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2AD1D4E0-1CF1-4249-B293-C8CCD3CE1D1C}|GamingClub\\GamingClub.csproj|d:\\\u0443\u043D\u0438\u0432\u0435\u0440\\\u043A\u0443\u0440\u0441\u043E\u0432\u044B\u0435\\\u043E\u043E\u043F, \u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F, 3 \u0441\u0435\u043C\\gamingclub\\gamingclub\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2AD1D4E0-1CF1-4249-B293-C8CCD3CE1D1C}|GamingClub\\GamingClub.csproj|solutionrelative:gamingclub\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2AD1D4E0-1CF1-4249-B293-C8CCD3CE1D1C}|GamingClub\\GamingClub.csproj|d:\\\u0443\u043D\u0438\u0432\u0435\u0440\\\u043A\u0443\u0440\u0441\u043E\u0432\u044B\u0435\\\u043E\u043E\u043F, \u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F, 3 \u0441\u0435\u043C\\gamingclub\\gamingclub\\gamingclub.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{2AD1D4E0-1CF1-4249-B293-C8CCD3CE1D1C}|GamingClub\\GamingClub.csproj|solutionrelative:gamingclub\\gamingclub.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AD1D4E0-1CF1-4249-B293-C8CCD3CE1D1C}|GamingClub\\GamingClub.csproj|d:\\\u0443\u043D\u0438\u0432\u0435\u0440\\\u043A\u0443\u0440\u0441\u043E\u0432\u044B\u0435\\\u043E\u043E\u043F, \u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F, 3 \u0441\u0435\u043C\\gamingclub\\gamingclub\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AD1D4E0-1CF1-4249-B293-C8CCD3CE1D1C}|GamingClub\\GamingClub.csproj|solutionrelative:gamingclub\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AD1D4E0-1CF1-4249-B293-C8CCD3CE1D1C}|GamingClub\\GamingClub.csproj|d:\\\u0443\u043D\u0438\u0432\u0435\u0440\\\u043A\u0443\u0440\u0441\u043E\u0432\u044B\u0435\\\u043E\u043E\u043F, \u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F, 3 \u0441\u0435\u043C\\gamingclub\\gamingclub\\viewmodels\\uservm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AD1D4E0-1CF1-4249-B293-C8CCD3CE1D1C}|GamingClub\\GamingClub.csproj|solutionrelative:gamingclub\\viewmodels\\uservm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AD1D4E0-1CF1-4249-B293-C8CCD3CE1D1C}|GamingClub\\GamingClub.csproj|d:\\\u0443\u043D\u0438\u0432\u0435\u0440\\\u043A\u0443\u0440\u0441\u043E\u0432\u044B\u0435\\\u043E\u043E\u043F, \u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F, 3 \u0441\u0435\u043C\\gamingclub\\gamingclub\\models\\home\\greetingmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AD1D4E0-1CF1-4249-B293-C8CCD3CE1D1C}|GamingClub\\GamingClub.csproj|solutionrelative:gamingclub\\models\\home\\greetingmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AD1D4E0-1CF1-4249-B293-C8CCD3CE1D1C}|GamingClub\\GamingClub.csproj|d:\\\u0443\u043D\u0438\u0432\u0435\u0440\\\u043A\u0443\u0440\u0441\u043E\u0432\u044B\u0435\\\u043E\u043E\u043F, \u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F, 3 \u0441\u0435\u043C\\gamingclub\\gamingclub\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AD1D4E0-1CF1-4249-B293-C8CCD3CE1D1C}|GamingClub\\GamingClub.csproj|solutionrelative:gamingclub\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AD1D4E0-1CF1-4249-B293-C8CCD3CE1D1C}|GamingClub\\GamingClub.csproj|d:\\\u0443\u043D\u0438\u0432\u0435\u0440\\\u043A\u0443\u0440\u0441\u043E\u0432\u044B\u0435\\\u043E\u043E\u043F, \u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F, 3 \u0441\u0435\u043C\\gamingclub\\gamingclub\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AD1D4E0-1CF1-4249-B293-C8CCD3CE1D1C}|GamingClub\\GamingClub.csproj|solutionrelative:gamingclub\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2AD1D4E0-1CF1-4249-B293-C8CCD3CE1D1C}|GamingClub\\GamingClub.csproj|d:\\\u0443\u043D\u0438\u0432\u0435\u0440\\\u043A\u0443\u0440\u0441\u043E\u0432\u044B\u0435\\\u043E\u043E\u043F, \u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F, 3 \u0441\u0435\u043C\\gamingclub\\gamingclub\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -46,19 +58,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AboutViewModel.cs",
-              "DocumentMoniker": "D:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041A\u0443\u0440\u0441\u043E\u0432\u044B\u0435\\\u041E\u041E\u041F, \u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F, 3 \u0441\u0435\u043C\\GamingClub\\GamingClub\\ViewModels\\Home\\AboutViewModel.cs",
-              "RelativeDocumentMoniker": "GamingClub\\ViewModels\\Home\\AboutViewModel.cs",
-              "ToolTip": "D:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041A\u0443\u0440\u0441\u043E\u0432\u044B\u0435\\\u041E\u041E\u041F, \u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F, 3 \u0441\u0435\u043C\\GamingClub\\GamingClub\\ViewModels\\Home\\AboutViewModel.cs",
-              "RelativeToolTip": "GamingClub\\ViewModels\\Home\\AboutViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAqAAAA",
+              "DocumentIndex": 5,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041A\u0443\u0440\u0441\u043E\u0432\u044B\u0435\\\u041E\u041E\u041F, \u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F, 3 \u0441\u0435\u043C\\GamingClub\\GamingClub\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "GamingClub\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041A\u0443\u0440\u0441\u043E\u0432\u044B\u0435\\\u041E\u041E\u041F, \u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F, 3 \u0441\u0435\u043C\\GamingClub\\GamingClub\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "GamingClub\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T19:41:34.672Z",
+              "WhenOpened": "2025-03-17T06:59:47.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041A\u0443\u0440\u0441\u043E\u0432\u044B\u0435\\\u041E\u041E\u041F, \u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F, 3 \u0441\u0435\u043C\\GamingClub\\GamingClub\\Models\\User.cs",
+              "RelativeDocumentMoniker": "GamingClub\\Models\\User.cs",
+              "ToolTip": "D:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041A\u0443\u0440\u0441\u043E\u0432\u044B\u0435\\\u041E\u041E\u041F, \u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F, 3 \u0441\u0435\u043C\\GamingClub\\GamingClub\\Models\\User.cs",
+              "RelativeToolTip": "GamingClub\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T06:35:17.93Z",
               "EditorCaption": ""
             },
             {
@@ -69,14 +94,53 @@
               "RelativeDocumentMoniker": "GamingClub\\Views\\Home\\Index.cshtml",
               "ToolTip": "D:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041A\u0443\u0440\u0441\u043E\u0432\u044B\u0435\\\u041E\u041E\u041F, \u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F, 3 \u0441\u0435\u043C\\GamingClub\\GamingClub\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "GamingClub\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAAADEAAAAaAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-16T18:11:19.079Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
+              "Title": "UserVM.cs",
+              "DocumentMoniker": "D:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041A\u0443\u0440\u0441\u043E\u0432\u044B\u0435\\\u041E\u041E\u041F, \u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F, 3 \u0441\u0435\u043C\\GamingClub\\GamingClub\\ViewModels\\UserVM.cs",
+              "RelativeDocumentMoniker": "GamingClub\\ViewModels\\UserVM.cs",
+              "ToolTip": "D:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041A\u0443\u0440\u0441\u043E\u0432\u044B\u0435\\\u041E\u041E\u041F, \u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F, 3 \u0441\u0435\u043C\\GamingClub\\GamingClub\\ViewModels\\UserVM.cs",
+              "RelativeToolTip": "GamingClub\\ViewModels\\UserVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T06:58:34.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Account.cshtml",
+              "DocumentMoniker": "D:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041A\u0443\u0440\u0441\u043E\u0432\u044B\u0435\\\u041E\u041E\u041F, \u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F, 3 \u0441\u0435\u043C\\GamingClub\\GamingClub\\Views\\Account\\Account.cshtml",
+              "RelativeDocumentMoniker": "GamingClub\\Views\\Account\\Account.cshtml",
+              "ToolTip": "D:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041A\u0443\u0440\u0441\u043E\u0432\u044B\u0435\\\u041E\u041E\u041F, \u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F, 3 \u0441\u0435\u043C\\GamingClub\\GamingClub\\Views\\Account\\Account.cshtml",
+              "RelativeToolTip": "GamingClub\\Views\\Account\\Account.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-17T07:51:28.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041A\u0443\u0440\u0441\u043E\u0432\u044B\u0435\\\u041E\u041E\u041F, \u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F, 3 \u0441\u0435\u043C\\GamingClub\\GamingClub\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "GamingClub\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041A\u0443\u0440\u0441\u043E\u0432\u044B\u0435\\\u041E\u041E\u041F, \u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F, 3 \u0441\u0435\u043C\\GamingClub\\GamingClub\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "GamingClub\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T17:35:39.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "GreetingModel.cs",
               "DocumentMoniker": "D:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041A\u0443\u0440\u0441\u043E\u0432\u044B\u0435\\\u041E\u041E\u041F, \u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F, 3 \u0441\u0435\u043C\\GamingClub\\GamingClub\\Models\\Home\\GreetingModel.cs",
               "RelativeDocumentMoniker": "GamingClub\\Models\\Home\\GreetingModel.cs",
@@ -89,46 +153,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041A\u0443\u0440\u0441\u043E\u0432\u044B\u0435\\\u041E\u041E\u041F, \u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F, 3 \u0441\u0435\u043C\\GamingClub\\GamingClub\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "GamingClub\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041A\u0443\u0440\u0441\u043E\u0432\u044B\u0435\\\u041E\u041E\u041F, \u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F, 3 \u0441\u0435\u043C\\GamingClub\\GamingClub\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "GamingClub\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T17:35:39.9Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041A\u0443\u0440\u0441\u043E\u0432\u044B\u0435\\\u041E\u041E\u041F, \u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F, 3 \u0441\u0435\u043C\\GamingClub\\GamingClub\\Program.cs",
               "RelativeDocumentMoniker": "GamingClub\\Program.cs",
               "ToolTip": "D:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041A\u0443\u0440\u0441\u043E\u0432\u044B\u0435\\\u041E\u041E\u041F, \u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F, 3 \u0441\u0435\u043C\\GamingClub\\GamingClub\\Program.cs",
               "RelativeToolTip": "GamingClub\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-12T15:40:39.049Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041A\u0443\u0440\u0441\u043E\u0432\u044B\u0435\\\u041E\u041E\u041F, \u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F, 3 \u0441\u0435\u043C\\GamingClub\\GamingClub\\appsettings.json",
               "RelativeDocumentMoniker": "GamingClub\\appsettings.json",
               "ToolTip": "D:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041A\u0443\u0440\u0441\u043E\u0432\u044B\u0435\\\u041E\u041E\u041F, \u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F, 3 \u0441\u0435\u043C\\GamingClub\\GamingClub\\appsettings.json",
               "RelativeToolTip": "GamingClub\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-03-12T15:41:53.725Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "GamingClub.csproj",
               "DocumentMoniker": "D:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041A\u0443\u0440\u0441\u043E\u0432\u044B\u0435\\\u041E\u041E\u041F, \u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F, 3 \u0441\u0435\u043C\\GamingClub\\GamingClub\\GamingClub.csproj",
               "RelativeDocumentMoniker": "GamingClub\\GamingClub.csproj",
@@ -141,7 +192,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "launchSettings.json",
               "DocumentMoniker": "D:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041A\u0443\u0440\u0441\u043E\u0432\u044B\u0435\\\u041E\u041E\u041F, \u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F, 3 \u0441\u0435\u043C\\GamingClub\\GamingClub\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "GamingClub\\Properties\\launchSettings.json",
@@ -153,7 +204,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "D:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041A\u0443\u0440\u0441\u043E\u0432\u044B\u0435\\\u041E\u041E\u041F, \u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F, 3 \u0441\u0435\u043C\\GamingClub\\GamingClub\\appsettings.Development.json",
               "RelativeDocumentMoniker": "GamingClub\\appsettings.Development.json",

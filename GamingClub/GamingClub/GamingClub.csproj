@@ -12,6 +12,9 @@
 
   <ItemGroup>
     <Folder Include="Services\" />
+    <Folder Include="ViewModels\Home\" />
+    <Folder Include="Views\Resources\" />
+    <Folder Include="wwwroot\" />
   </ItemGroup>
 
 </Project>

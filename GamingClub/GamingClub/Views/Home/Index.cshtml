@@ -2,7 +2,7 @@
 @using Microsoft.AspNetCore.Identity
 
 @{
-    ViewData["Title"] = "Главная";
+    ViewData["Title"] = "Home";
 }
 
 <!DOCTYPE html>
@@ -12,8 +12,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewData["Title"]</title>
     <style>
+
         /* Стили для шапки */
         .header {
+            height: auto;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -29,6 +31,8 @@
 
         .header a:hover {
             text-decoration: underline;
+            color: red;
+            transform: scale(1.05);
         }
 
         /* Стили для аккордеона */
@@ -60,21 +64,38 @@
         .accordion-item.active .accordion-content {
             display: block; /* Показываем содержимое при активации */
         }
+        .navigation {
+            display: flex;
+            gap: 30px;
+            align-items: center;
+            font-family: 'Courier', sans-serif;
+            color: white;
+            font-size: 40px;
+        }
+
+        .navItem1 {
+            font-family: 'Courier', sans-serif;
+            color: white;
+            font-size: 40px;
+        }
+
+        .navItem {
+            font-family: 'Courier', sans-serif;
+            color: white;
+            font-size: 20px;
+        }
     </style>
 </head>
 <body>
     <div class="header">
-        <div>Добро пожаловать в GamingClub!</div>
-       @*  <div>
-            @if (SignInManager.IsSignedIn(User))
-            {
-                <a href="/Identity/Account/Manage">@UserManager.GetUserName(User)</a>
-            }
-            else
-            {
-                <a href="/Identity/Account/Login">ВОЙТИ</a>
-            }
-        </div> *@
+        <div class="navigation">
+                <a class="navItem1" href="/Home">GamingClub</a>
+                <a class="navItem" href="/About-Us">About Us</a>
+                <a class="navItem" href="/Booking">Booking</a>
+              </div>
+        <div>
+            <a href="/Account">Account</a>
+        </div>
     </div>
     <p>@Model.Message</p>
 
