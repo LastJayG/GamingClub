@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8WStLFNgSMGKUIci2i4djE7OZ6EorKxDIP//YzKK3k8=",
+  "Hash": "yTNvvuLBdK67xySzY3NCdzjQ1LAGYnlRDY7qqy9nDhk=",
   "Source": "GamingClub",
   "BasePath": "_content/GamingClub",
   "Mode": "Default",
@@ -15,5 +15,25 @@
       "Pattern": "**"
     }
   ],
-  "Assets": []
+  "Assets": [
+    {
+      "Identity": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\Resources\\default_account_pic.jpg",
+      "SourceId": "GamingClub",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\",
+      "BasePath": "_content/GamingClub",
+      "RelativePath": "Resources/default_account_pic.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Resources\\default_account_pic.jpg"
+    }
+  ]
 }

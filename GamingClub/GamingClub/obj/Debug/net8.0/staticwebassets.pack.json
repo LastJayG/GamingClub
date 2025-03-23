@@ -1,12 +1,8 @@
 {
   "Files": [
     {
-      "Id": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\Fonts\\Game Paused DEMO.otf",
-      "PackagePath": "staticwebassets\\Fonts\\Game Paused DEMO.otf"
-    },
-    {
-      "Id": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\css\\styles.css",
-      "PackagePath": "staticwebassets\\css\\styles.css"
+      "Id": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\Resources\\default_account_pic.jpg",
+      "PackagePath": "staticwebassets\\Resources\\default_account_pic.jpg"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.GamingClub.Microsoft.AspNetCore.StaticWebAssets.props",

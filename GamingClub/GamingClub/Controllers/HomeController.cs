@@ -1,26 +1,22 @@
-﻿using GamingClub.Models.Home;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 
 namespace GamingClub.Controllers
 {
-	//[Route("Home")]
-	public class HomeController : Controller
+    [ApiController]
+    [Route("api/[controller]")]
+	public class HomeController : ControllerBase
     {
+        [HttpGet]
         public IActionResult Index()
         {
-			var model = new GreetingModel { Message = "It's a place where a game starts" };
-			return View(model);
+            var response = new
+            {
+                Message = "Welcome to GamingClub Api",
+                Status = "OK",
+                TimestampAttribute = DateTime.Now
+            };
+            return Ok(response);
         }
-
-		public IActionResult About()
-		{
-			
-			return View();
-		}
-		public IActionResult Services()
-		{
-			return View();
-		}
 
 	}
 }

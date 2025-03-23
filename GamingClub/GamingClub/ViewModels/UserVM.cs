@@ -1,9 +1,13 @@
-﻿namespace GamingClub.ViewModels
-{
-	public class UserVM
-	{
-		public string? Name { get; set; }
-		public string? Email { get; set; }
+﻿using System.ComponentModel.DataAnnotations;
 
+namespace GamingClub.ViewModels
+{
+    public class UserVM
+    {
+        [Required]
+        public string? Username { get; set; }
+        [Required]
+        [EmailAddress]
+        public string? Email { get; set; }
     }
 }
