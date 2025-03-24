@@ -1,5 +1,4 @@
-﻿using System.Threading.Tasks;
-using GamingClub.Data;
+﻿using GamingClub.Data;
 using GamingClub.Models;
 using Microsoft.EntityFrameworkCore;
 

@@ -14,6 +14,7 @@ namespace GamingClub.Controllers
         {
             _userService = userService;
         }
+
         [HttpGet("{id}")]
         public async Task<IActionResult> GetUser(int id)
         {
@@ -26,18 +27,19 @@ namespace GamingClub.Controllers
             {
                 Username = user.Username,
                 Email = user.Email,
+                ReservationHistory = user.ReservationHistory,
             };
             return Ok(userVM);
         }
-        //[HttpPost]
-        //public async Task<IActionResult> CreateUser([FromBody] UserModel user) // USERCREATEVM НАДО СОЗДАТЬ
-        //{
-        //    if (user == null)
-        //        return BadRequest();
+        [HttpPost]
+        public async Task<IActionResult> CreateUser([FromBody] UserVM user) // В UserVM нет айди и пароля для создания пользователя => а как создать нового пользователя, чтобы Controllers не знал о Models
+        {
+            //if (user == null)
+            //    return BadRequest();
+            //await _userService.CreateUserAsync(user);
 
-        //    await _userService.CreateUserAsync(user);
-
-        //    return CreatedAtAction(nameof(GetUser), new { id = user.Id }, user);
-        //}
+            //return Ok(user);
+            return Ok();
+        }
     }
 }

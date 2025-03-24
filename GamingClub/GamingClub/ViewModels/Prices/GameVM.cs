@@ -7,5 +7,8 @@
         public double WeekendPriceStandard { get; set; }
         public double CasualPriceVip { get; set; }
         public double WeekendPriceVip { get; set; }
+
+        public DateTime StartTime { get; set; }
+        public DateTime EndTime { get; set; }
     }
 }

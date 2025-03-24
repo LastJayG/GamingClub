@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using GamingClub.Models;
+using System.ComponentModel.DataAnnotations;
 
 namespace GamingClub.ViewModels
 {
@@ -9,5 +10,8 @@ namespace GamingClub.ViewModels
         [Required]
         [EmailAddress]
         public string? Email { get; set; }
+        [Required]
+        public ReservationHistoryModel? ReservationHistory { get; set; }
+
     }
 }

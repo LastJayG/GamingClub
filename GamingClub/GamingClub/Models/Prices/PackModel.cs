@@ -1,6 +1,6 @@
 ﻿namespace GamingClub.Models.Prices
 {
-    public class PackModel
+    public class PackModel  // пакет "утро", "ночь" и т.д.
     {
         public string? Name { get; set; }
         public double CasualPriceStandard { get; set; }

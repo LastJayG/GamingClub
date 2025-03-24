@@ -8,8 +8,8 @@ namespace GamingClub.Data
     {
         public GamingClubContext(DbContextOptions<GamingClubContext> options) : base(options) { }
 
-        public DbSet<UserModel> Users { get; set; }
-        public DbSet<GameModel> Games { get; set; }
+        public DbSet<UserModel> Users { get; set; } // все пользователи
+        public DbSet<GameModel> Games { get; set; } // список зарезервированных игр-мест  
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
@@ -18,6 +18,7 @@ namespace GamingClub.Data
                 entity.HasKey(u => u.Id); 
                 entity.Property(u => u.Username).IsRequired().HasMaxLength(50); 
                 entity.Property(u => u.Email).IsRequired().HasMaxLength(50);
+                entity.Property(u => u.ReservationHistory).IsRequired();
                 entity.Property(u => u.HashPassword).HasDefaultValueSql("GETHASHPASSWORD()");
             }
             );
@@ -28,6 +29,8 @@ namespace GamingClub.Data
                 entity.Property(u => u.WeekendPriceStandard).IsRequired();
                 entity.Property(u => u.CasualPriceVip).IsRequired();
                 entity.Property(u => u.WeekendPriceVip).IsRequired();
+                entity.Property(u => u.StartTime).IsRequired();
+                entity.Property(u => u.EndTime).IsRequired();
             }
            );
         }
