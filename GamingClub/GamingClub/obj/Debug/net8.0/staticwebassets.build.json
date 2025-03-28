@@ -1,39 +1,11 @@
 {
   "Version": 1,
-  "Hash": "yTNvvuLBdK67xySzY3NCdzjQ1LAGYnlRDY7qqy9nDhk=",
+  "Hash": "jV1IxW3G9W/wPSiL/+hXEzfhjb7tYu3M+NQDnZ6RtP4=",
   "Source": "GamingClub",
   "BasePath": "_content/GamingClub",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [
-    {
-      "Name": "GamingClub\\wwwroot",
-      "Source": "GamingClub",
-      "ContentRoot": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\",
-      "BasePath": "_content/GamingClub",
-      "Pattern": "**"
-    }
-  ],
-  "Assets": [
-    {
-      "Identity": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\Resources\\default_account_pic.jpg",
-      "SourceId": "GamingClub",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\",
-      "BasePath": "_content/GamingClub",
-      "RelativePath": "Resources/default_account_pic.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Resources\\default_account_pic.jpg"
-    }
-  ]
+  "DiscoveryPatterns": [],
+  "Assets": []
 }

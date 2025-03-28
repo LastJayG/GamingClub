@@ -7,11 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\Resources\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="wwwroot\Resources\default_account_pic.jpg" />
+    <Folder Include="Contracts\Request\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -22,6 +18,14 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="8.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="8.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GamingClub.Core\GamingClub.Core.csproj" />
+    <ProjectReference Include="..\GamingClub.DataAccess\GamingClub.DataAccess.csproj" />
+    <ProjectReference Include="..\GamingClub.Services\GamingClub.Services.csproj" />
   </ItemGroup>
 
 </Project>
