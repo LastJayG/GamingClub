@@ -1,17 +1,17 @@
-﻿using GamingClub.DataAccess.Entities;
+﻿using GamingClub.Core.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace GamingClub.DataAccess.Configurations
+namespace GamingClub.Data.Configurations
 {
     public class UserConfiguration : IEntityTypeConfiguration<UserEntity>
     {
         public void Configure(EntityTypeBuilder<UserEntity> builder)
         {
             builder
-                .HasMany(u => u.GameReservations)
-                .WithOne(gr => gr.User)
-                .HasForeignKey(gr => gr.UserId);
+                .HasMany(u => u.Reservations)
+                .WithOne(r => r.User)
+                .HasForeignKey(r => r.UserId);
         }
     }
 }

@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "GamingClub.Application/1.0.0": {
+        "dependencies": {
+          "GamingClub.Core": "1.0.0"
+        },
+        "runtime": {
+          "GamingClub.Application.dll": {}
+        }
+      },
+      "GamingClub.Core/1.0.0": {
+        "runtime": {
+          "GamingClub.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GamingClub.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GamingClub.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

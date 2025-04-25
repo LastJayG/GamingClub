@@ -1,6 +1,5 @@
-﻿using GamingClub.Core.Models.User;
-using GamingClub.Data;
-using GamingClub.DataAccess.Entities;
+﻿using GamingClub.Core.Entities;
+using GamingClub.Data.Context;
 using Microsoft.EntityFrameworkCore;
 
 namespace GamingClub.Services

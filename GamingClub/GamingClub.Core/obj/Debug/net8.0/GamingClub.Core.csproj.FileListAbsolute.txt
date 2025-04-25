@@ -1,6 +1,4 @@
-D:\Универ\Курсовые\ООП, курсовая, 3 сем\GamingClub\GamingClub.Core\bin\Debug\net8.0\GamingClub.Core.exe
 D:\Универ\Курсовые\ООП, курсовая, 3 сем\GamingClub\GamingClub.Core\bin\Debug\net8.0\GamingClub.Core.deps.json
-D:\Универ\Курсовые\ООП, курсовая, 3 сем\GamingClub\GamingClub.Core\bin\Debug\net8.0\GamingClub.Core.runtimeconfig.json
 D:\Универ\Курсовые\ООП, курсовая, 3 сем\GamingClub\GamingClub.Core\bin\Debug\net8.0\GamingClub.Core.dll
 D:\Универ\Курсовые\ООП, курсовая, 3 сем\GamingClub\GamingClub.Core\bin\Debug\net8.0\GamingClub.Core.pdb
 D:\Универ\Курсовые\ООП, курсовая, 3 сем\GamingClub\GamingClub.Core\obj\Debug\net8.0\GamingClub.Core.GeneratedMSBuildEditorConfig.editorconfig
@@ -11,5 +9,4 @@ D:\Универ\Курсовые\ООП, курсовая, 3 сем\GamingClub\G
 D:\Универ\Курсовые\ООП, курсовая, 3 сем\GamingClub\GamingClub.Core\obj\Debug\net8.0\GamingClub.Core.dll
 D:\Универ\Курсовые\ООП, курсовая, 3 сем\GamingClub\GamingClub.Core\obj\Debug\net8.0\refint\GamingClub.Core.dll
 D:\Универ\Курсовые\ООП, курсовая, 3 сем\GamingClub\GamingClub.Core\obj\Debug\net8.0\GamingClub.Core.pdb
-D:\Универ\Курсовые\ООП, курсовая, 3 сем\GamingClub\GamingClub.Core\obj\Debug\net8.0\GamingClub.Core.genruntimeconfig.cache
 D:\Универ\Курсовые\ООП, курсовая, 3 сем\GamingClub\GamingClub.Core\obj\Debug\net8.0\ref\GamingClub.Core.dll

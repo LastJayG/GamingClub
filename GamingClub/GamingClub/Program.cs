@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using GamingClub.Data;
+using GamingClub.Data.Context;
 using GamingClub.Services;
 
 var builder = WebApplication.CreateBuilder();
