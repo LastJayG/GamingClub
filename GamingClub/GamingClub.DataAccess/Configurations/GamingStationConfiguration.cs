@@ -10,7 +10,8 @@ namespace GamingClub.Data.Configurations
         {
             builder
                 .HasMany(g => g.Reservations)
-                .WithMany(g => g.GameStations);
+                .WithMany(g => g.GameStations)
+                .UsingEntity(j => j.ToTable("gamingstationentityreservationentity"));
         }
     }
 }

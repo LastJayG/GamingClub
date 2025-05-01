@@ -33,8 +33,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub.Core\\GamingClub.Core.csproj": {
-                "projectPath": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub.Core\\GamingClub.Core.csproj"
+              "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub.Core\\GamingClub.Domain.csproj": {
+                "projectPath": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub.Core\\GamingClub.Domain.csproj"
               }
             }
           }
@@ -48,11 +48,22 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "MySql.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -64,16 +75,21 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub.Core\\GamingClub.Core.csproj": {
+    "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub.Core\\GamingClub.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub.Core\\GamingClub.Core.csproj",
-        "projectName": "GamingClub.Core",
-        "projectPath": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub.Core\\GamingClub.Core.csproj",
+        "projectUniqueName": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub.Core\\GamingClub.Domain.csproj",
+        "projectName": "GamingClub.Domain",
+        "projectPath": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub.Core\\GamingClub.Domain.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
         "outputPath": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub.Core\\obj\\",
         "projectStyle": "PackageReference",
@@ -108,11 +124,22 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "MySql.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -124,7 +151,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

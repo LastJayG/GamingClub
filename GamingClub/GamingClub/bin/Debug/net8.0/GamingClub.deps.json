@@ -9,7 +9,7 @@
       "GamingClub/1.0.0": {
         "dependencies": {
           "GamingClub.Core": "1.0.0",
-          "GamingClub.DataAccess": "1.0.0",
+          "GamingClub.Data": "1.0.0",
           "GamingClub.Services": "1.0.0",
           "Microsoft.EntityFrameworkCore": "9.0.3",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.3",
@@ -1091,24 +1091,33 @@
           }
         }
       },
+      "GamingClub.Application/1.0.0": {
+        "dependencies": {
+          "GamingClub.Core": "1.0.0"
+        },
+        "runtime": {
+          "GamingClub.Application.dll": {}
+        }
+      },
       "GamingClub.Core/1.0.0": {
         "runtime": {
           "GamingClub.Core.dll": {}
         }
       },
-      "GamingClub.DataAccess/1.0.0": {
+      "GamingClub.Data/1.0.0": {
         "dependencies": {
           "GamingClub.Core": "1.0.0",
           "Microsoft.EntityFrameworkCore": "9.0.3"
         },
         "runtime": {
-          "GamingClub.DataAccess.dll": {}
+          "GamingClub.Data.dll": {}
         }
       },
       "GamingClub.Services/1.0.0": {
         "dependencies": {
+          "GamingClub.Application": "1.0.0",
           "GamingClub.Core": "1.0.0",
-          "GamingClub.DataAccess": "1.0.0"
+          "GamingClub.Data": "1.0.0"
         },
         "runtime": {
           "GamingClub.Services.dll": {}
@@ -1717,12 +1726,17 @@
       "path": "system.windows.extensions/6.0.0",
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
     },
+    "GamingClub.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "GamingClub.Core/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "GamingClub.DataAccess/1.0.0": {
+    "GamingClub.Data/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

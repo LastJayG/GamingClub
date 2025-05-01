@@ -1,12 +1,20 @@
-using Microsoft.EntityFrameworkCore;
 using GamingClub.Data.Context;
-using GamingClub.Services;
+using Microsoft.OpenApi.Models;
+using Microsoft.Net.Http.Headers;
+using Microsoft.EntityFrameworkCore;
+using GamingClub.Data.Interfaces;
+using GamingClub.Data.Repositories;
 
 var builder = WebApplication.CreateBuilder();
 
-builder.Services.AddDbContext<GamingClubContext>(
-    options => options.UseSqlServer(
-        builder.Configuration.GetConnectionString("DefaultConnection")));
+builder.Services.AddAuthentication().AddJwtBearer();
+builder.Services.AddAuthorization();
+
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<IReservationRepository, ReservationRepository>();
+builder.Services.AddScoped<IGamingStationRepository, GamingStationRepository>();
+
+builder.Services.AddDbContext<GamingClubContext>(o => o.UseMySQL());
 
 // JSON
 builder.Services.AddControllers()
@@ -18,38 +26,41 @@ builder.Services.AddControllers()
 
 builder.Services.AddSwaggerGen(c =>
 {
-    c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo
+    c.SwaggerDoc("v1", new OpenApiInfo
     {
         Title = "GamingClub API",
         Version = "v1",
         Description = "API для управления GamingClub",
-        Contact = new Microsoft.OpenApi.Models.OpenApiContact
-        {
-            Name = "Ваше имя",
-            Email = "ваш.email@example.com"
-        }
     });
+    var security = new OpenApiSecurityScheme
+    {
+        Name = HeaderNames.Authorization,
+        Type = SecuritySchemeType.ApiKey,
+        In = ParameterLocation.Header,
+        Description = "JWT Authorization header",
+        Reference = new OpenApiReference
+        {
+        }
+    };
 });
 
-builder.Services.AddScoped<IUserService, UserService>();
 var app = builder.Build();
 
-//Swagger
+app.UseAuthentication();
+
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
-    app.UseSwaggerUI(c =>
+    app.UseSwaggerUI(options =>
     {
-        c.SwaggerEndpoint("/swagger/v1/swagger.json", "GamingClub API V1");
+        options.SwaggerEndpoint("/swagger/v1/swagger.json", "GamingClub API V1");
+        //Чтобы разместить пользовательский интерфейс Swagger в корневом каталоге приложения
+        options.RoutePrefix = string.Empty;
     });
 }
 
 app.UseRouting();
-
-app.MapGet("/", () => "Welcome to GamingClub API! Please visit /swagger for API documentation.");
-
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+app.UseAuthorization();
+app.UseEndpoints(endpoints => endpoints.MapControllers());
 
 app.Run();
