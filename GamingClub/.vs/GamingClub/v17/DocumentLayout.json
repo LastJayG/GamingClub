@@ -58,8 +58,7 @@
               "RelativeToolTip": "GamingClub\\ViewModels\\Home\\AboutViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T19:41:34.672Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-16T19:41:34.672Z"
             },
             {
               "$type": "Document",
@@ -69,7 +68,7 @@
               "RelativeDocumentMoniker": "GamingClub\\Views\\Home\\Index.cshtml",
               "ToolTip": "D:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041A\u0443\u0440\u0441\u043E\u0432\u044B\u0435\\\u041E\u041E\u041F, \u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F, 3 \u0441\u0435\u043C\\GamingClub\\GamingClub\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "GamingClub\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAAADEAAAAaAAAA",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADEAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-16T18:11:19.079Z",
               "EditorCaption": ""
@@ -84,8 +83,7 @@
               "RelativeToolTip": "GamingClub\\Models\\Home\\GreetingModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T18:08:53.682Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-16T18:08:53.682Z"
             },
             {
               "$type": "Document",
@@ -97,8 +95,7 @@
               "RelativeToolTip": "GamingClub\\Controllers\\HomeController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T17:35:39.9Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-16T17:35:39.9Z"
             },
             {
               "$type": "Document",
@@ -110,8 +107,7 @@
               "RelativeToolTip": "GamingClub\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T15:40:39.049Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-12T15:40:39.049Z"
             },
             {
               "$type": "Document",
@@ -123,8 +119,7 @@
               "RelativeToolTip": "GamingClub\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-12T15:41:53.725Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-12T15:41:53.725Z"
             },
             {
               "$type": "Document",
@@ -136,8 +131,7 @@
               "RelativeToolTip": "GamingClub\\GamingClub.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-12T15:43:02.993Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-12T15:43:02.993Z"
             },
             {
               "$type": "Document",
@@ -162,6 +156,10 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-03-12T15:42:10.827Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }
