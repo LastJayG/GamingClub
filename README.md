@@ -6,7 +6,7 @@
 
 > #### Tech stack:
 > **Backend**: ASP.NET Core 7, EntityFramework Core 7<br>
-> **DataBase**: MySQL<br>
+> **DataBase**: MySQL ![image]({https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white}) <br>
 > **Documentation**: Swagger
 
 > #### How to launch:
