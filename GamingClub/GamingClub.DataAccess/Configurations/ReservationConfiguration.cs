@@ -1,9 +1,9 @@
-﻿using GamingClub.Core.Entities;
+﻿using GamingClub.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 
-namespace GamingClub.Data.Configurations
+namespace GamingClub.Domain.Configurations
 {
     public class ReservationConfiguration : IEntityTypeConfiguration<ReservationEntity>
     {
@@ -13,6 +13,10 @@ namespace GamingClub.Data.Configurations
                 .HasOne(r => r.User)
                 .WithMany(u => u.Reservations)
                 .HasForeignKey(r => r.UserId);
+            builder
+                .HasMany(r => r.ReservationUnits)
+                .WithOne(ru => ru.Reservation)
+                .HasForeignKey(ru => ru.ReservationId);
         }
     }
 }

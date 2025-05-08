@@ -12,7 +12,5 @@ D:\Универ\Курсовые\ООП, курсовая, 3 сем\GamingClub\G
 D:\Универ\Курсовые\ООП, курсовая, 3 сем\GamingClub\GamingClub.DataAccess\obj\Debug\net9.0\refint\GamingClub.Data.dll
 D:\Универ\Курсовые\ООП, курсовая, 3 сем\GamingClub\GamingClub.DataAccess\obj\Debug\net9.0\GamingClub.Data.pdb
 D:\Универ\Курсовые\ООП, курсовая, 3 сем\GamingClub\GamingClub.DataAccess\obj\Debug\net9.0\ref\GamingClub.Data.dll
-D:\Универ\Курсовые\ООП, курсовая, 3 сем\GamingClub\GamingClub.DataAccess\bin\Debug\net9.0\GamingClub.Application.dll
 D:\Универ\Курсовые\ООП, курсовая, 3 сем\GamingClub\GamingClub.DataAccess\bin\Debug\net9.0\GamingClub.Domain.dll
-D:\Универ\Курсовые\ООП, курсовая, 3 сем\GamingClub\GamingClub.DataAccess\bin\Debug\net9.0\GamingClub.Application.pdb
 D:\Универ\Курсовые\ООП, курсовая, 3 сем\GamingClub\GamingClub.DataAccess\bin\Debug\net9.0\GamingClub.Domain.pdb

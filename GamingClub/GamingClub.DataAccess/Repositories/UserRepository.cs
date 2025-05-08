@@ -1,9 +1,7 @@
-﻿using GamingClub.Application.DTOs;
-using GamingClub.Core.Entities;
-using GamingClub.Data.Context;
-using GamingClub.Data.Interfaces;
-using Microsoft.AspNetCore.Http.HttpResults;
+﻿using GamingClub.Domain.Interfaces;
+using GamingClub.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
+using GamingClub.Data.Context;
 
 namespace GamingClub.Data.Repositories
 {
@@ -17,23 +15,20 @@ namespace GamingClub.Data.Repositories
                 .FirstOrDefaultAsync(u => u.Id == id);
         }
 
-        public async Task CreateUserAsync(UserDTO userDTO)
+        public async Task CreateUserAsync(UserEntity user)
         {
-            var user = new UserEntity();
-            user.Username = userDTO.Username;
-            user.Email = userDTO.Email;
             gamingClubContext.Users.Add(user);
             await gamingClubContext.SaveChangesAsync();
         }
 
-        public async Task UpdateUserAsync(UserDTO newUserDTO)
+        public async Task UpdateUserAsync(UserEntity user, int id)
         {
-            var user = await gamingClubContext.Users
+            var newUser = await gamingClubContext.Users
                 .AsNoTracking()
-                .FirstOrDefaultAsync(u => u.Id == newUserDTO.Id);
-            user.Username = newUserDTO.Username;
-            user.Email = newUserDTO.Email;
-            gamingClubContext.Users.Update(user);
+                .FirstOrDefaultAsync(u => u.Id == id);
+            newUser.Username = user.Username;
+            newUser.Email = user.Email;
+            gamingClubContext.Users.Update(newUser);
             await gamingClubContext.SaveChangesAsync();
         }
 

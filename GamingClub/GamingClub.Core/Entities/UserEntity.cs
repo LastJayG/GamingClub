@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace GamingClub.Core.Entities
+namespace GamingClub.Domain.Entities
 {
     [Table("user")]
     public class UserEntity
@@ -17,6 +17,6 @@ namespace GamingClub.Core.Entities
         [EmailAddress]
         public string Email { get; set; }
 
-        public ICollection<ReservationEntity> Reservations { get; set; }
+        public IEnumerable<ReservationEntity> Reservations { get; set; }
     }
 }

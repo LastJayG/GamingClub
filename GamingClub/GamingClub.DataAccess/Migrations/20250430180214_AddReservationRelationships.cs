@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace GamingClub.Data.Migrations
+namespace GamingClub.Domain.Migrations
 {
     /// <inheritdoc />
     public partial class AddReservationRelationships : Migration

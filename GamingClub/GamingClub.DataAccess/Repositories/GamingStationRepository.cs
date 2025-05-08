@@ -1,7 +1,6 @@
-﻿using GamingClub.Application.DTOs;
-using GamingClub.Core.Entities;
-using GamingClub.Data.Context;
-using GamingClub.Data.Interfaces;
+﻿using GamingClub.Data.Context;
+using GamingClub.Domain.Entities;
+using GamingClub.Domain.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
 namespace GamingClub.Data.Repositories
@@ -18,11 +17,11 @@ namespace GamingClub.Data.Repositories
                 .AsNoTracking()
                 .FirstOrDefaultAsync(g => g.Id == id);
         }
-        public async Task CreateGamingStationAsync(GamingStationDTO gamingStationDTO)
+        public async Task CreateGamingStationAsync(GamingStationEntity gamingStation)
         {
-            var gamingStation = new GamingStationEntity();
-            gamingStation.IsFree = gamingStationDTO.IsFree;
-            gamingStation.Type = gamingStationDTO.Type;
+            var newGamingStation = new GamingStationEntity();
+            gamingStation.IsFree = gamingStation.IsFree;
+            gamingStation.Type = gamingStation.Type;
 
             gamingClubContext.GamingStations.Add(gamingStation);
 

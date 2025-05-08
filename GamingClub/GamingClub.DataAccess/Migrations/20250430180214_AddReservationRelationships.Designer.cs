@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
-namespace GamingClub.Data.Migrations
+namespace GamingClub.Domain.Migrations
 {
     [DbContext(typeof(GamingClubContext))]
     [Migration("20250430180214_AddReservationRelationships")]

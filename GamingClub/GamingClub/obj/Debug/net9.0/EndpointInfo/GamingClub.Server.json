@@ -63,74 +63,21 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/ReservationDTO"
+                "$ref": "#/components/schemas/ReservationCreateDTO"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/ReservationDTO"
+                "$ref": "#/components/schemas/ReservationCreateDTO"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/ReservationDTO"
+                "$ref": "#/components/schemas/ReservationCreateDTO"
               }
             }
           }
         },
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/Reservations/UpdateReservation": {
-      "put": {
-        "tags": [
-          "Reservations"
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/ReservationDTO"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/ReservationDTO"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/ReservationDTO"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/Reservations/DeleteReservationById": {
-      "delete": {
-        "tags": [
-          "Reservations"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "query",
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
         "responses": {
           "200": {
             "description": "OK"
@@ -171,17 +118,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/UserDTO"
+                "$ref": "#/components/schemas/UserCreateDTO"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/UserDTO"
+                "$ref": "#/components/schemas/UserCreateDTO"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/UserDTO"
+                "$ref": "#/components/schemas/UserCreateDTO"
               }
             }
           }
@@ -193,26 +140,37 @@
         }
       }
     },
-    "/api/Users/UpdateUser": {
+    "/api/Users/UpdateUser/{id}": {
       "put": {
         "tags": [
           "Users"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
         ],
         "requestBody": {
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/UserDTO"
+                "$ref": "#/components/schemas/UserUpdateDTO"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/UserDTO"
+                "$ref": "#/components/schemas/UserUpdateDTO"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/UserDTO"
+                "$ref": "#/components/schemas/UserUpdateDTO"
               }
             }
           }
@@ -249,7 +207,7 @@
   },
   "components": {
     "schemas": {
-      "ReservationDTO": {
+      "ReservationCreateDTO": {
         "type": "object",
         "properties": {
           "Id": {
@@ -260,6 +218,19 @@
             "type": "integer",
             "format": "int32"
           },
+          "ReservationUnits": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ReservationUnitCreateDTO"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ReservationUnitCreateDTO": {
+        "type": "object",
+        "properties": {
           "StartDate": {
             "type": "string",
             "format": "date-time"
@@ -268,18 +239,14 @@
             "type": "string",
             "format": "date-time"
           },
-          "GamingStationsId": {
-            "type": "array",
-            "items": {
-              "type": "integer",
-              "format": "int32"
-            },
-            "nullable": true
+          "GamingStationId": {
+            "type": "integer",
+            "format": "int32"
           }
         },
         "additionalProperties": false
       },
-      "UserDTO": {
+      "UserCreateDTO": {
         "type": "object",
         "properties": {
           "Id": {
@@ -293,13 +260,19 @@
           "Email": {
             "type": "string",
             "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UserUpdateDTO": {
+        "type": "object",
+        "properties": {
+          "Username": {
+            "type": "string",
+            "nullable": true
           },
-          "ReservationIds": {
-            "type": "array",
-            "items": {
-              "type": "integer",
-              "format": "int32"
-            },
+          "Email": {
+            "type": "string",
             "nullable": true
           }
         },

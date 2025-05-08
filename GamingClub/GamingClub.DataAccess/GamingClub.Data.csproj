@@ -14,7 +14,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\GamingClub.Application\GamingClub.Application.csproj" />
     <ProjectReference Include="..\GamingClub.Core\GamingClub.Domain.csproj" />
   </ItemGroup>
 

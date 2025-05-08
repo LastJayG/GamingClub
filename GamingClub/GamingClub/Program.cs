@@ -1,8 +1,9 @@
-using GamingClub.Data.Context;
 using Microsoft.OpenApi.Models;
 using Microsoft.Net.Http.Headers;
-using Microsoft.EntityFrameworkCore;
-using GamingClub.Data.Interfaces;
+using GamingClub.Domain.Interfaces;
+using GamingClub.Application.Interfaces;
+using GamingClub.Application.Services;
+using GamingClub.Data.Context;
 using GamingClub.Data.Repositories;
 
 var builder = WebApplication.CreateBuilder();
@@ -11,10 +12,16 @@ builder.Services.AddAuthentication().AddJwtBearer();
 builder.Services.AddAuthorization();
 
 builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<IReservationUnitRepository, ReservationUnitRepository>();
 builder.Services.AddScoped<IReservationRepository, ReservationRepository>();
 builder.Services.AddScoped<IGamingStationRepository, GamingStationRepository>();
 
-builder.Services.AddDbContext<GamingClubContext>(o => o.UseMySQL());
+builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<IReservationUnitService, ReservationUnitService>();
+builder.Services.AddScoped<IReservationService, ReservationService>();
+
+
+builder.Services.AddDbContext<GamingClubContext>();
 
 // JSON
 builder.Services.AddControllers()
@@ -54,7 +61,6 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI(options =>
     {
         options.SwaggerEndpoint("/swagger/v1/swagger.json", "GamingClub API V1");
-        //„тобы разместить пользовательский интерфейс Swagger в корневом каталоге приложени€
         options.RoutePrefix = string.Empty;
     });
 }

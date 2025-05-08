@@ -1,12 +1,12 @@
-﻿using GamingClub.Application.DTOs;
-using GamingClub.Core.Entities;
-using GamingClub.Data.Context;
-using GamingClub.Data.Interfaces;
+﻿using GamingClub.Domain.Interfaces;
+using GamingClub.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
+using GamingClub.Data.Context;
 
 namespace GamingClub.Data.Repositories
 {
-    public class ReservationRepository(GamingClubContext gamingClubContext) : IReservationRepository
+    public class ReservationRepository(GamingClubContext gamingClubContext, 
+        IReservationUnitRepository reservationUnitRepository) : IReservationRepository
     {
         public async Task<ReservationEntity> GetReservationByIdAsync(int id)
         {
@@ -14,35 +14,30 @@ namespace GamingClub.Data.Repositories
                 .AsNoTracking()
                 .FirstOrDefaultAsync(r => r.Id == id);
         }
-        public async Task CreateReservationAsync(ReservationDTO reservationDTO)
-        {
-            var user = await gamingClubContext.Users
-                .Include(u => u.Reservations) // Подгружаем связанные резервации
-                .FirstOrDefaultAsync(u => u.Id == reservationDTO.UserId);
-            var reservation = new ReservationEntity();
-            reservation.StartDate = reservationDTO.StartDate;
-            reservation.EndDate = reservationDTO.EndDate;
-            reservation.UserId = reservationDTO.UserId;
 
-            user.Reservations ??= new List<ReservationEntity>();
-            user.Reservations.Add(reservation);
+        // ЗДЕСЬ АШЫЫЫЫЫЫЫЫЫЫЫБКА!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!11
+        public async Task CreateReservationAsync(ReservationEntity reservation)
+        {
+            // костыль!!! (ИСПРАВИТЬ нормальными методами для IEnumerable)
+            //var reservations = user.Reservations.ToList();
+            //reservations.Add(reservation);
+            //user.Reservations = reservations;
 
             gamingClubContext.Reservations.Add(reservation);
-
             await gamingClubContext.SaveChangesAsync();
         }
-        public async Task UpdateReservationAsync(ReservationDTO reservationDTO)
+
+        public async Task UpdateReservationAsync(ReservationEntity reservation)
         {
-            var reservation = await gamingClubContext.Reservations
+            var newReservation = await gamingClubContext.Reservations
                 .AsNoTracking()
-                .FirstOrDefaultAsync(r => r.Id == reservationDTO.Id);
-            reservation.StartDate = reservationDTO.StartDate;
-            reservation.EndDate = reservationDTO.EndDate;
-            reservation.UserId = reservationDTO.UserId;
+                .FirstOrDefaultAsync(r => r.Id == reservation.Id);
+            newReservation.UserId = reservation.UserId;
 
-            gamingClubContext.Reservations.Update(reservation);
+            gamingClubContext.Reservations.Update(newReservation);
             await gamingClubContext.SaveChangesAsync();
         }
+
         public async Task DeleteReservationByIdAsync(int id)
         {
             var reservation = await gamingClubContext.Reservations

@@ -1,27 +1,28 @@
-﻿using GamingClub.Core.Entities;
-using GamingClub.Data.Configurations;
+﻿using GamingClub.Domain.Configurations;
+using GamingClub.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 
 namespace GamingClub.Data.Context
 {
-    public class GamingClubContext : DbContext
+    public class GamingClubContext(IConfiguration configuration) : DbContext
     {
-        public GamingClubContext(DbContextOptions<GamingClubContext> options) : base(options) { }
         public DbSet<UserEntity> Users { get; set; }
         public DbSet<ReservationEntity> Reservations { get; set; }
         public DbSet<GamingStationEntity> GamingStations { get; set; }
+        public DbSet<ReservationUnitEntity> ReservationUnits { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            //Почему БД правильно создалась, когда ApplyConfiguration был только один (для UserConfiguration)???
             modelBuilder.ApplyConfiguration(new UserConfiguration());
             modelBuilder.ApplyConfiguration(new ReservationConfiguration());
             modelBuilder.ApplyConfiguration(new GamingStationConfiguration());
+            modelBuilder.ApplyConfiguration(new ReservationUnitConfiguration());
             base.OnModelCreating(modelBuilder);
         }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseMySQL("host=localhost;port=3306;database=gamingclubdb;user=root;password=11111");
+            optionsBuilder.UseMySQL(configuration.GetConnectionString("DefaultConnection"));
         }
     }
 }

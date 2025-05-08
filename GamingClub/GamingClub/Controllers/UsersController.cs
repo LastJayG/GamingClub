@@ -1,62 +1,51 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using GamingClub.Data.Interfaces;
-using GamingClub.Application.DTOs;
+using GamingClub.Application.DTOs.User;
+using GamingClub.Application.Interfaces;
 
-namespace GamingClub.Controllers
+namespace GamingClub.Server.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class UsersController(IUserRepository _userRepository) : ControllerBase
+    public class UsersController(IUserService userService) : ControllerBase
     {
         [HttpGet("{id}", Name = "GetUserById")]
         public async Task<IActionResult> GetUserByIdAsync(int id)
         {
-            var user = await _userRepository.GetUserByIdAsync(id);
+            var user = await userService.GetUserByIdAsync(id);
             if (user == null) return NotFound();
 
-            var result = new UserWithReservationsDTO
-            {
-                Id = user.Id,
-                Username = user.Username,
-                Email = user.Email,
-                Reservations = user.Reservations?.Select(r => new ReservationDTO
-                {
-                    Id = r.Id,
-                    StartDate = r.StartDate,
-                    EndDate = r.EndDate
-                }).ToList() ?? new List<ReservationDTO>()
-            };
-
-            return Ok(result);
+            return Ok(user);
         }
 
         [HttpPost("CreateUser")]
-        public async Task<IActionResult> CreateUser([FromBody] UserDTO userDTO)
+        public async Task<IActionResult> CreateUser([FromBody] UserCreateDTO user)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
 
-            await _userRepository.CreateUserAsync(userDTO);
+            await userService.CreateUserAsync(user);
 
             return Ok();
         }
-        [HttpPut("UpdateUser")]
-        public async Task<IActionResult> UpdateUser([FromBody] UserDTO userDTO)
+
+        [HttpPut("UpdateUser/{id}")]
+        public async Task<IActionResult> UpdateUser([FromBody] UserUpdateDTO user, [FromRoute] int id)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
-            
-            await _userRepository.UpdateUserAsync(userDTO);
+
+            await userService.UpdateUserAsync(user, id);
             return Ok();
         }
+
         [HttpDelete("DeleteUserById")]
         public async Task<IActionResult> DeleteUser(int id)
         {
-            await _userRepository.DeleteUserByIdAsync(id);
+            await userService.DeleteUserByIdAsync(id);
             return Ok();
         }
     }

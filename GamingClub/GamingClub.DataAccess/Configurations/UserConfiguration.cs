@@ -1,8 +1,8 @@
-﻿using GamingClub.Core.Entities;
+﻿using GamingClub.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace GamingClub.Data.Configurations
+namespace GamingClub.Domain.Configurations
 {
     public class UserConfiguration : IEntityTypeConfiguration<UserEntity>
     {

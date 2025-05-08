@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace GamingClub.Core.Entities
+namespace GamingClub.Domain.Entities
 {
     [Table("gamingstation")]
     public class GamingStationEntity
@@ -10,6 +10,7 @@ namespace GamingClub.Core.Entities
         public int Id { get; set; }
         public bool IsFree { get; set; }
         public GamingStationType Type {  get; set; } 
-        public List<ReservationEntity> Reservations { get; set; }
+
+        public IEnumerable<ReservationUnitEntity> ReservationUnits { get; set; }
     }
 }

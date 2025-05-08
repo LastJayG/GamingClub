@@ -4,7 +4,7 @@ using MySql.EntityFrameworkCore.Metadata;
 
 #nullable disable
 
-namespace GamingClub.Data.Migrations
+namespace GamingClub.Domain.Migrations
 {
     /// <inheritdoc />
     public partial class InitialCreate : Migration

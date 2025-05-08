@@ -1837,7 +1837,6 @@
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
           "GamingClub.Domain": "1.0.0",
-          "Microsoft.AspNetCore.Authentication.JwtBearer": "9.0.4",
           "MySql.EntityFrameworkCore": "9.0.3"
         },
         "compile": {
@@ -1851,7 +1850,6 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
-          "GamingClub.Application": "1.0.0",
           "GamingClub.Domain": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "9.0.4",
           "Microsoft.EntityFrameworkCore": "9.0.4",
@@ -1868,7 +1866,6 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
-          "Microsoft.AspNetCore.Authentication.JwtBearer": "9.0.4",
           "MySql.EntityFrameworkCore": "9.0.3"
         },
         "compile": {

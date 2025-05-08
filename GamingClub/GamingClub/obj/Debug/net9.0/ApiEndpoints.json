@@ -1,6 +1,6 @@
 [
   {
-    "ContainingType": "GamingClub.Controllers.GamingStationsController",
+    "ContainingType": "GamingClub.Server.Controllers.GamingStationsController",
     "Method": "GetGamingStationsAsync",
     "RelativePath": "api/GamingStations",
     "HttpMethod": "GET",
@@ -10,7 +10,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "GamingClub.Controllers.HomeController",
+    "ContainingType": "GamingClub.Server.Controllers.HomeController",
     "Method": "Index",
     "RelativePath": "api/Home",
     "HttpMethod": "GET",
@@ -20,7 +20,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "GamingClub.Controllers.ReservationsController",
+    "ContainingType": "GamingClub.Server.Controllers.ReservationsController",
     "Method": "GetReservationByIdAsync",
     "RelativePath": "api/Reservations/{id}",
     "HttpMethod": "GET",
@@ -37,7 +37,7 @@
     "EndpointName": "GetReservationById"
   },
   {
-    "ContainingType": "GamingClub.Controllers.ReservationsController",
+    "ContainingType": "GamingClub.Server.Controllers.ReservationsController",
     "Method": "CreateReservation",
     "RelativePath": "api/Reservations/CreateReservation",
     "HttpMethod": "POST",
@@ -46,46 +46,14 @@
     "Parameters": [
       {
         "Name": "reservationDTO",
-        "Type": "GamingClub.Application.DTOs.ReservationDTO",
+        "Type": "GamingClub.Application.DTOs.Reservation.ReservationCreateDTO",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "GamingClub.Controllers.ReservationsController",
-    "Method": "DeleteReservation",
-    "RelativePath": "api/Reservations/DeleteReservationById",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "GamingClub.Controllers.ReservationsController",
-    "Method": "UpdateReservation",
-    "RelativePath": "api/Reservations/UpdateReservation",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "reservationDTO",
-        "Type": "GamingClub.Application.DTOs.ReservationDTO",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "GamingClub.Controllers.UsersController",
+    "ContainingType": "GamingClub.Server.Controllers.UsersController",
     "Method": "GetUserByIdAsync",
     "RelativePath": "api/Users/{id}",
     "HttpMethod": "GET",
@@ -102,7 +70,7 @@
     "EndpointName": "GetUserById"
   },
   {
-    "ContainingType": "GamingClub.Controllers.UsersController",
+    "ContainingType": "GamingClub.Server.Controllers.UsersController",
     "Method": "CreateUser",
     "RelativePath": "api/Users/CreateUser",
     "HttpMethod": "POST",
@@ -110,15 +78,15 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "userDTO",
-        "Type": "GamingClub.Application.DTOs.UserDTO",
+        "Name": "user",
+        "Type": "GamingClub.Application.DTOs.User.UserCreateDTO",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "GamingClub.Controllers.UsersController",
+    "ContainingType": "GamingClub.Server.Controllers.UsersController",
     "Method": "DeleteUser",
     "RelativePath": "api/Users/DeleteUserById",
     "HttpMethod": "DELETE",
@@ -134,16 +102,21 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "GamingClub.Controllers.UsersController",
+    "ContainingType": "GamingClub.Server.Controllers.UsersController",
     "Method": "UpdateUser",
-    "RelativePath": "api/Users/UpdateUser",
+    "RelativePath": "api/Users/UpdateUser/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "userDTO",
-        "Type": "GamingClub.Application.DTOs.UserDTO",
+        "Name": "user",
+        "Type": "GamingClub.Application.DTOs.User.UserUpdateDTO",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],

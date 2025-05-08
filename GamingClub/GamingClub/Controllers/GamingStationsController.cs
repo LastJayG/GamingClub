@@ -1,8 +1,8 @@
 ﻿using GamingClub.Application.DTOs;
-using GamingClub.Data.Interfaces;
+using GamingClub.Domain.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
-namespace GamingClub.Controllers
+namespace GamingClub.Server.Controllers
 {
     [ApiController]
     [Route("/api/[controller]")]
