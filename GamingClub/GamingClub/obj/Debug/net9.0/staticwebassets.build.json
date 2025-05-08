@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "nCC8mhH/UG5tgfXigBBtcXHfHcBc9m0m3MgW8Vsrcwo=",
+  "Source": "GamingClub.Server",
+  "BasePath": "_content/GamingClub.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
