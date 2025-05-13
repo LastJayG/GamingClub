@@ -6,7 +6,7 @@
 
 ### Tech stack:
 > **Backend**:
->   - [![C# Version](https://img.shields.io/badge/C%23-11.0-blueviolet?logo=c-sharp)](https://learn.microsoft.com/dotnet/csharp/)
+>   - [![C# Version](https://img.shields.io/badge/C%23-13.0-blueviolet?logo=c-sharp)](https://learn.microsoft.com/dotnet/csharp/)
 >   - [![.NET Version](https://img.shields.io/badge/.NET-9.0-purple.svg)](https://dotnet.microsoft.com/download)
 >   - [![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-7.0-blue.svg)](https://dotnet.microsoft.com/apps/aspnet)
 >   - [![EF Core](https://img.shields.io/badge/EF_Core-7-purple?logo=entity-framework)](https://learn.microsoft.com/ef/core/) <br>
