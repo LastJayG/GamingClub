@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GamingClub.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a74a1e827779993ab2736ccdc4f3597cf0a5e48e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+080a616ed442d4a5019e659a60bba69923a09980")]
 [assembly: System.Reflection.AssemblyProductAttribute("GamingClub.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GamingClub.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
