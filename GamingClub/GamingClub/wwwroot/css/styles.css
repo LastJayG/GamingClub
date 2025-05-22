@@ -1,0 +1,73 @@
+﻿/* Базовые стили для всех страниц */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0f0f1a;
+    color: white;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #1a1a2e;
+    padding: 20px 10%;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+    nav a:hover {
+        color: #4cc9f0;
+    }
+
+.active {
+    color: #4cc9f0 !important;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #1a1a2e;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+/* Анимации */
+.page-loading::after {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #4cc9f0;
+    animation: loading 1s infinite;
+}
+
+@keyframes loading {
+    0% {
+        width: 0;
+        left: 0;
+    }
+
+    50% {
+        width: 100%;
+        left: 0;
+    }
+
+    100% {
+        width: 0;
+        left: 100%;
+    }
+}

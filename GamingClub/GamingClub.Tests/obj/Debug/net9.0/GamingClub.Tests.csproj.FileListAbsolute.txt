@@ -173,3 +173,8 @@ D:\Универ\Курсовые\ООП, курсовая, 3 сем\GamingClub\G
 D:\Универ\Курсовые\ООП, курсовая, 3 сем\GamingClub\GamingClub.Tests\obj\Debug\net9.0\ref\GamingClub.Tests.dll
 D:\Универ\Курсовые\ООП, курсовая, 3 сем\GamingClub\GamingClub.Tests\bin\Debug\net9.0\.msCoverageSourceRootsMapping_GamingClub.Tests
 D:\Универ\Курсовые\ООП, курсовая, 3 сем\GamingClub\GamingClub.Tests\bin\Debug\net9.0\xunit.runner.visualstudio.testadapter.dll
+D:\Универ\Курсовые\ООП, курсовая, 3 сем\GamingClub\GamingClub.Tests\bin\Debug\net9.0\Data\Users\user_1.json
+D:\Универ\Курсовые\ООП, курсовая, 3 сем\GamingClub\GamingClub.Tests\bin\Debug\net9.0\Data\Users\user_2.json
+D:\Универ\Курсовые\ООП, курсовая, 3 сем\GamingClub\GamingClub.Tests\bin\Debug\net9.0\Data\Users\user_9.json
+D:\Универ\Курсовые\ООП, курсовая, 3 сем\GamingClub\GamingClub.Tests\bin\Debug\net9.0\GamingClub.Server.staticwebassets.runtime.json
+D:\Универ\Курсовые\ООП, курсовая, 3 сем\GamingClub\GamingClub.Tests\bin\Debug\net9.0\Data\Users\user_7.json

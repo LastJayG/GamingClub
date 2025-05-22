@@ -1,11 +1,14 @@
-﻿using GamingClub.Application.DTOs.ReservationUnit;
-
-namespace GamingClub.Application.DTOs.Reservation
+﻿namespace GamingClub.Application.DTOs.Reservation
 {
     public class ReservationDTO
     {
         public int Id { get; set; }
         public int UserId { get; set; }
-        public IEnumerable<ReservationUnitDTO> ReservationUnits { get; set; }
+        public int GamingStationId { get; set; }
+
+        public DateTime StartDate;
+        public DateTime EndDate;
+        public string StartDateShort => StartDate.ToString("yyyy-MM-dd HH:mm");
+        public string EndDateShort => EndDate.ToString("yyyy-MM-dd HH:mm");
     }
 }

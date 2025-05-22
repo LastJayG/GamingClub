@@ -1,149 +1,151 @@
-﻿using GamingClub.Domain.Interfaces;
-using Microsoft.AspNetCore.Mvc;
-using Moq;
-using GamingClub.Server.Controllers;
-using GamingClub.Domain.Entities;
-using GamingClub.Application.DTOs.User;
+﻿//using GamingClub.Application.DTOs.User;
+//using GamingClub.Application.Interfaces;
+//using GamingClub.Server.Controllers;
+//using Microsoft.AspNetCore.Mvc;
+//using Moq;
+//using Xunit;
 
-namespace GamingClub.Tests
-{
-    public class UsersControllerTests
-    {
-        //private readonly Mock<IUserRepository> _mockRepo;
-        //private readonly UsersController _controller;
+//namespace GamingClub.Tests
+//{
+//    public class UsersControllerTests
+//    {
+//        private readonly Mock<IUserService> _mockUserService;
+//        private readonly UsersController _controller;
 
-        //public UsersControllerTests()
-        //{
-        //    _mockRepo = new Mock<IUserRepository>();
-        //    _controller = new UsersController(_mockRepo.Object);
-        //}
+//        public UsersControllerTests()
+//        {
+//            _mockUserService = new Mock<IUserService>();
+//            _controller = new UsersController(_mockUserService.Object);
+//        }
 
-        //[Fact]
-        //public async Task GetUserByIdAsync_ReturnsOkResultWithUser_WhenUserExists()
-        //{
-        //    // Arrange
-        //    var testUser = new UserEntity
-        //    {
-        //        Id = 1,
-        //        Username = "testuser",
-        //        Email = "test@example.com",
-        //        Reservations = new List<ReservationEntity>
-        //        {
-        //            new ReservationEntity { Id = 1 }
-        //        }
-        //    };
+//        [Fact]
+//        public async Task GetUserById_ReturnsOkResult_WhenUserExists()
+//        {
+//            // Arrange
+//            var testUser = new UserDTO { Id = 1, Username = "testuser", Email = "test@example.com" };
+//            _mockUserService.Setup(s => s.GetUserByIdAsync(1)).ReturnsAsync(testUser);
 
-        //    _mockRepo.Setup(repo => repo.GetUserByIdAsync(1))
-        //        .ReturnsAsync(testUser);
+//            // Act
+//            var result = await _controller.GetUserById(1);
 
-        //    // Act
-        //    var result = await _controller.GetUserByIdAsync(1);
+//            // Assert
+//            var okResult = Assert.IsType<OkObjectResult>(result);
+//            var returnedUser = Assert.IsType<UserDTO>(okResult.Value);
+//            Assert.Equal(testUser.Id, returnedUser.Id);
+//            Assert.Equal(testUser.Username, returnedUser.Username);
+//            Assert.Equal(testUser.Email, returnedUser.Email);
+//        }
 
-        //    // Assert
-        //    var okResult = Assert.IsType<OkObjectResult>(result);
-        //    var returnedUser = Assert.IsType<UserWithReservationsDTO>(okResult.Value);
+//        [Fact]
+//        public async Task GetUserById_ReturnsNotFound_WhenUserDoesNotExist()
+//        {
+//            // Arrange
+//            _mockUserService.Setup(s => s.GetUserByIdAsync(It.IsAny<int>())).ReturnsAsync((UserDTO)null);
 
-        //    Assert.Equal(testUser.Id, returnedUser.Id);
-        //    Assert.Equal(testUser.Username, returnedUser.Username);
-        //    Assert.Equal(testUser.Email, returnedUser.Email);
-        //    Assert.Single(returnedUser.Reservations);
-        //}
+//            // Act
+//            var result = await _controller.GetUserById(1);
 
-        //[Fact]
-        //public async Task GetUserByIdAsync_ReturnsNotFound_WhenUserDoesNotExist()
-        //{
-        //    // Arrange
-        //    _mockRepo.Setup(repo => repo.GetUserByIdAsync(It.IsAny<int>()))
-        //        .ReturnsAsync((UserEntity)null);
+//            // Assert
+//            Assert.IsType<NotFoundResult>(result);
+//        }
 
-        //    // Act
-        //    var result = await _controller.GetUserByIdAsync(1);
+//        [Fact]
+//        public async Task GetUserFromFile_ReturnsOkResult_WhenFileExists()
+//        {
+//            // Arrange
+//            var testUser = new UserDTO { Id = 1, Username = "testuser", Email = "test@example.com" };
+//            _mockUserService.Setup(s => s.GetUserFromFileAsync(1)).ReturnsAsync(testUser);
 
-        //    // Assert
-        //    Assert.IsType<NotFoundResult>(result);
-        //}
+//            // Act
+//            var result = await _controller.GetUserFromFile(1);
 
-        //[Fact]
-        //public async Task CreateUser_ReturnsOkResult_WhenModelIsValid()
-        //{
-        //    // Arrange
-        //    var userDTO = new UserDTO
-        //    {
-        //        Username = "newuser",
-        //        Email = "new@example.com"
-        //    };
+//            // Assert
+//            var okResult = Assert.IsType<OkObjectResult>(result);
+//            var returnedUser = Assert.IsType<UserDTO>(okResult.Value);
+//            Assert.Equal(testUser.Id, returnedUser.Id);
+//        }
 
-        //    _mockRepo.Setup(repo => repo.CreateUserAsync(It.IsAny<UserDTO>()))
-        //        .Returns(Task.CompletedTask);
+//        [Fact]
+//        public async Task GetUserFromFile_ReturnsNotFound_WhenFileDoesNotExist()
+//        {
+//            // Arrange
+//            _mockUserService.Setup(s => s.GetUserFromFileAsync(It.IsAny<int>())).ReturnsAsync((UserDTO)null);
 
-        //    // Act
-        //    var result = await _controller.CreateUser(userDTO);
+//            // Act
+//            var result = await _controller.GetUserFromFile(1);
 
-        //    // Assert
-        //    Assert.IsType<OkResult>(result);
-        //}
+//            // Assert
+//            var notFoundResult = Assert.IsType<NotFoundObjectResult>(result);
+//            Assert.Contains("not found", notFoundResult.Value.ToString());
+//        }
 
-        //[Fact]
-        //public async Task CreateUser_ReturnsBadRequest_WhenModelIsInvalid()
-        //{
-        //    // Arrange
-        //    var userDTO = new UserDTO(); // Invalid as it lacks required fields
-        //    _controller.ModelState.AddModelError("Username", "Required");
+//        [Fact]
+//        public async Task CreateUser_ReturnsOkResult_WhenModelIsValid()
+//        {
+//            // Arrange
+//            var userCreateDto = new UserCreateDTO { Username = "newuser", Email = "new@example.com" };
+//            _mockUserService.Setup(s => s.CreateUserAsync(It.IsAny<UserCreateDTO>())).Returns(Task.CompletedTask);
 
-        //    // Act
-        //    var result = await _controller.CreateUser(userDTO);
+//            // Act
+//            var result = await _controller.CreateUser(userCreateDto);
 
-        //    // Assert
-        //    Assert.IsType<BadRequestObjectResult>(result);
-        //}
+//            // Assert
+//            Assert.IsType<OkResult>(result);
+//        }
 
-        //[Fact]
-        //public async Task UpdateUser_ReturnsOkResult_WhenModelIsValid()
-        //{
-        //    // Arrange
-        //    var userDTO = new UserDTO
-        //    {
-        //        Id = 1,
-        //        Username = "updateduser",
-        //        Email = "updated@example.com"
-        //    };
+//        [Fact]
+//        public async Task CreateUser_ReturnsBadRequest_WhenModelIsInvalid()
+//        {
+//            // Arrange
+//            var userCreateDto = new UserCreateDTO();
+//            _controller.ModelState.AddModelError("Username", "Required");
 
-        //    _mockRepo.Setup(repo => repo.UpdateUserAsync(It.IsAny<UserDTO>()))
-        //        .Returns(Task.CompletedTask);
+//            // Act
+//            var result = await _controller.CreateUser(userCreateDto);
 
-        //    // Act
-        //    var result = await _controller.UpdateUser(userDTO);
+//            // Assert
+//            Assert.IsType<BadRequestObjectResult>(result);
+//        }
 
-        //    // Assert
-        //    Assert.IsType<OkResult>(result);
-        //}
+//        [Fact]
+//        public async Task UpdateUser_ReturnsOkResult_WhenModelIsValid()
+//        {
+//            // Arrange
+//            var userUpdateDto = new UserUpdateDTO { Username = "updated", Email = "updated@example.com" };
+//            _mockUserService.Setup(s => s.UpdateUserAsync(It.IsAny<UserUpdateDTO>(), It.IsAny<int>())).Returns(Task.CompletedTask);
 
-        //[Fact]
-        //public async Task UpdateUser_ReturnsBadRequest_WhenModelIsInvalid()
-        //{
-        //    // Arrange
-        //    var userDTO = new UserDTO(); 
-        //    _controller.ModelState.AddModelError("Username", "Required");
+//            // Act
+//            var result = await _controller.UpdateUser(userUpdateDto, 1);
 
-        //    // Act
-        //    var result = await _controller.UpdateUser(userDTO);
+//            // Assert
+//            Assert.IsType<OkResult>(result);
+//        }
 
-        //    // Assert
-        //    Assert.IsType<BadRequestObjectResult>(result);
-        //}
+//        [Fact]
+//        public async Task UpdateUser_ReturnsBadRequest_WhenModelIsInvalid()
+//        {
+//            // Arrange
+//            var userUpdateDto = new UserUpdateDTO();
+//            _controller.ModelState.AddModelError("Username", "Required");
 
-        //[Fact]
-        //public async Task DeleteUser_ReturnsOkResult_WhenUserExists()
-        //{
-        //    // Arrange
-        //    _mockRepo.Setup(repo => repo.DeleteUserByIdAsync(It.IsAny<int>()))
-        //        .Returns(Task.CompletedTask);
+//            // Act
+//            var result = await _controller.UpdateUser(userUpdateDto, 1);
 
-        //    // Act
-        //    var result = await _controller.DeleteUser(1);
+//            // Assert
+//            Assert.IsType<BadRequestObjectResult>(result);
+//        }
 
-        //    // Assert
-        //    Assert.IsType<OkResult>(result);
-        //}
-    }
-}
+//        [Fact]
+//        public async Task DeleteUser_ReturnsOkResult_WhenUserExists()
+//        {
+//            // Arrange
+//            _mockUserService.Setup(s => s.DeleteUserByIdAsync(It.IsAny<int>())).Returns(Task.CompletedTask);
+
+//            // Act
+//            var result = await _controller.DeleteUser(1);
+
+//            // Assert
+//            Assert.IsType<OkResult>(result);
+//        }
+//    }
+//}

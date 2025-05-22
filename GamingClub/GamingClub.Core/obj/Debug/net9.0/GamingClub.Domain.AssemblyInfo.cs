@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GamingClub.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+91616b6d3e472ba37595c87dc4d1212d6afba20e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+92b6d0e371b80af306de2b62533badc7f093ccc7")]
 [assembly: System.Reflection.AssemblyProductAttribute("GamingClub.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GamingClub.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

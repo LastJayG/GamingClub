@@ -10,6 +10,13 @@ namespace GamingClub.Data.Repositories
         public async Task<UserEntity> GetUserByIdAsync(int id)
         {
             return await gamingClubContext.Users
+                .AsNoTracking()
+                .FirstOrDefaultAsync(u => u.Id == id);
+        }
+
+        public async Task<UserEntity> GetUserWithReservationsByIdAsync(int id)
+        {
+            return await gamingClubContext.Users
                 .Include(u => u.Reservations)
                 .AsNoTracking()
                 .FirstOrDefaultAsync(u => u.Id == id);
@@ -40,6 +47,5 @@ namespace GamingClub.Data.Repositories
             gamingClubContext.Users.Remove(user);
             await gamingClubContext.SaveChangesAsync();
         }
-
     }
 }

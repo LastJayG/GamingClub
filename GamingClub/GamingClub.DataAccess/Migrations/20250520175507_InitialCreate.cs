@@ -4,7 +4,7 @@ using MySql.EntityFrameworkCore.Metadata;
 
 #nullable disable
 
-namespace GamingClub.Domain.Migrations
+namespace GamingClub.Data.Migrations
 {
     /// <inheritdoc />
     public partial class InitialCreate : Migration
@@ -21,7 +21,6 @@ namespace GamingClub.Domain.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("MySQL:ValueGenerationStrategy", MySQLValueGenerationStrategy.IdentityColumn),
-                    IsFree = table.Column<bool>(type: "tinyint(1)", nullable: false),
                     Type = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
@@ -53,11 +52,18 @@ namespace GamingClub.Domain.Migrations
                         .Annotation("MySQL:ValueGenerationStrategy", MySQLValueGenerationStrategy.IdentityColumn),
                     StartDate = table.Column<DateTime>(type: "datetime(6)", nullable: false),
                     EndDate = table.Column<DateTime>(type: "datetime(6)", nullable: false),
+                    GamingStationId = table.Column<int>(type: "int", nullable: false),
                     UserId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_reservation", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_reservation_gamingstation_GamingStationId",
+                        column: x => x.GamingStationId,
+                        principalTable: "gamingstation",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
                         name: "FK_reservation_user_UserId",
                         column: x => x.UserId,
@@ -67,35 +73,10 @@ namespace GamingClub.Domain.Migrations
                 })
                 .Annotation("MySQL:Charset", "utf8mb4");
 
-            migrationBuilder.CreateTable(
-                name: "gamingstationentityreservationentity",
-                columns: table => new
-                {
-                    GameStationsId = table.Column<int>(type: "int", nullable: false),
-                    ReservationsId = table.Column<int>(type: "int", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_gamingstationentityreservationentity", x => new { x.GameStationsId, x.ReservationsId });
-                    table.ForeignKey(
-                        name: "FK_gamingstationentityreservationentity_gamingstation_GameStati~",
-                        column: x => x.GameStationsId,
-                        principalTable: "gamingstation",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
-                    table.ForeignKey(
-                        name: "FK_gamingstationentityreservationentity_reservation_Reservation~",
-                        column: x => x.ReservationsId,
-                        principalTable: "reservation",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
-                })
-                .Annotation("MySQL:Charset", "utf8mb4");
-
             migrationBuilder.CreateIndex(
-                name: "IX_gamingstationentityreservationentity_ReservationsId",
-                table: "gamingstationentityreservationentity",
-                column: "ReservationsId");
+                name: "IX_reservation_GamingStationId",
+                table: "reservation",
+                column: "GamingStationId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_reservation_UserId",
@@ -107,13 +88,10 @@ namespace GamingClub.Domain.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "gamingstationentityreservationentity");
+                name: "reservation");
 
             migrationBuilder.DropTable(
                 name: "gamingstation");
-
-            migrationBuilder.DropTable(
-                name: "reservation");
 
             migrationBuilder.DropTable(
                 name: "user");

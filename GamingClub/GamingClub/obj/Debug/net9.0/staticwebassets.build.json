@@ -1,12 +1,4782 @@
 {
   "Version": 1,
-  "Hash": "nCC8mhH/UG5tgfXigBBtcXHfHcBc9m0m3MgW8Vsrcwo=",
+  "Hash": "j3N/QyuKa4wiAvxSKphzl71Q6mkrjGZTjBQvmhhkNlM=",
   "Source": "GamingClub.Server",
   "BasePath": "_content/GamingClub.Server",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "GamingClub.Server\\wwwroot",
+      "Source": "GamingClub.Server",
+      "ContentRoot": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\",
+      "BasePath": "_content/GamingClub.Server",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\1mbzupuye1-ovlg2el8g1.gz",
+      "SourceId": "GamingClub.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/GamingClub.Server",
+      "RelativePath": "make-reservation#[.{fingerprint=ovlg2el8g1}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\make-reservation.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "44ga5h602v",
+      "Integrity": "FNmEhCzOTIBvBjMk44PGiN7g/4J+ccGkU1T6fKvDAcY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\make-reservation.html"
+    },
+    {
+      "Identity": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\2039xls2fy-3g53r1vh4w.gz",
+      "SourceId": "GamingClub.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/GamingClub.Server",
+      "RelativePath": "about#[.{fingerprint=3g53r1vh4w}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\about.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "s2s912xczr",
+      "Integrity": "ZO/gBiNN3ewb977NKT/fAaj22zFblPUaS1hF+0216FM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\about.html"
+    },
+    {
+      "Identity": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\3ss7d8if32-x990onqg0r.gz",
+      "SourceId": "GamingClub.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/GamingClub.Server",
+      "RelativePath": "css/tournaments#[.{fingerprint=x990onqg0r}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\css\\tournaments.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "le8028vbn3",
+      "Integrity": "c8OkFSAdqGisBvNVUZPAt1PaOq0V5sF4aLC+kFSU1Qg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\css\\tournaments.css"
+    },
+    {
+      "Identity": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\5bg7l7r34a-sjarde9q7i.gz",
+      "SourceId": "GamingClub.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/GamingClub.Server",
+      "RelativePath": "js/navigation#[.{fingerprint=sjarde9q7i}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\js\\navigation.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "pqlunph557",
+      "Integrity": "kZRFH5TuwEhBwpChw9MyQMTnkUReF8i6SXE1fasqj+U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\js\\navigation.js"
+    },
+    {
+      "Identity": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\6myf7j1xjv-xjsybxio3g.gz",
+      "SourceId": "GamingClub.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/GamingClub.Server",
+      "RelativePath": "js/tournaments#[.{fingerprint=xjsybxio3g}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\js\\tournaments.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "gkhcg3wua2",
+      "Integrity": "8F8SzuTelTMBy64roVWXGRlon70pZBkRB3MjuPXg53I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\js\\tournaments.js"
+    },
+    {
+      "Identity": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\9ry9lh5dnt-awj4p14t2l.gz",
+      "SourceId": "GamingClub.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/GamingClub.Server",
+      "RelativePath": "js/about#[.{fingerprint=awj4p14t2l}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\js\\about.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "lq20xletqr",
+      "Integrity": "I50813z4BebZgWJiMCIekZff7x0nhCBOczOQE8dHd1Y=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\js\\about.js"
+    },
+    {
+      "Identity": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\dngx3rbezw-btooot6vgp.gz",
+      "SourceId": "GamingClub.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/GamingClub.Server",
+      "RelativePath": "css/styles#[.{fingerprint=btooot6vgp}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\css\\styles.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "1ind34ac7k",
+      "Integrity": "xzQ2a3DdBDbZhgEWyLsRpmgqUrv+A+7LM+lz3MCG5Jg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\css\\styles.css"
+    },
+    {
+      "Identity": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\ffeffd50vb-6sfi4vpxh1.gz",
+      "SourceId": "GamingClub.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/GamingClub.Server",
+      "RelativePath": "js/make-reservation#[.{fingerprint=6sfi4vpxh1}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\js\\make-reservation.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "lje15kti6q",
+      "Integrity": "H7tWP8AxOvTPZq2iwOTbvU9+QRA+8mcOb3kgPr6tMl0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\js\\make-reservation.js"
+    },
+    {
+      "Identity": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\gz9dgzu2tb-6ez9lpoc2m.gz",
+      "SourceId": "GamingClub.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/GamingClub.Server",
+      "RelativePath": "index#[.{fingerprint=6ez9lpoc2m}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\index.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "s4sog1hzvc",
+      "Integrity": "bCi4t3aoYqIppUlkJeBbstLHHUVUHeGGcOkC+qAukZE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\index.html"
+    },
+    {
+      "Identity": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\pirnojxni4-qbgn0z2psa.gz",
+      "SourceId": "GamingClub.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/GamingClub.Server",
+      "RelativePath": "js/index#[.{fingerprint=qbgn0z2psa}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\js\\index.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "rfgd8cbwzk",
+      "Integrity": "iQP5Uq7UOP6FUV5HRlK0eixDZpffUlCpRLMv4UC9Adw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\js\\index.js"
+    },
+    {
+      "Identity": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\qoccqth3lp-ipttstmyxy.gz",
+      "SourceId": "GamingClub.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/GamingClub.Server",
+      "RelativePath": "css/index#[.{fingerprint=ipttstmyxy}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\css\\index.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "c85jvtp2n9",
+      "Integrity": "PMQc2a52/nJXu7lCKdoJgu7YiiLrBwUmSfFJu7nL5Ec=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\css\\index.css"
+    },
+    {
+      "Identity": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\xkrnibdmqt-k9lg46m2sh.gz",
+      "SourceId": "GamingClub.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/GamingClub.Server",
+      "RelativePath": "tournaments#[.{fingerprint=k9lg46m2sh}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\tournaments.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "qhgt4cka4j",
+      "Integrity": "vuyWuc5ndHNszQM8quq7tuzX54Wu1gJ7CCrFZhZfMq0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\tournaments.html"
+    },
+    {
+      "Identity": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\yrcgmvzy1k-t0w27hlsni.gz",
+      "SourceId": "GamingClub.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/GamingClub.Server",
+      "RelativePath": "css/make-reservation#[.{fingerprint=t0w27hlsni}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\css\\make-reservation.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "2oepzt9koj",
+      "Integrity": "gj1A+h821mBxBGEEfAJvYs0SX0FSiEq6QqA3D5rGhWo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\css\\make-reservation.css"
+    },
+    {
+      "Identity": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\zujug8ejhk-d12e3tygd0.gz",
+      "SourceId": "GamingClub.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/GamingClub.Server",
+      "RelativePath": "css/about#[.{fingerprint=d12e3tygd0}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\css\\about.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "3ic0uv9cij",
+      "Integrity": "S4lbOZMJqSEsoVgkwcuba+hi5S/w3HrCFkPdLwy1SiY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\css\\about.css"
+    },
+    {
+      "Identity": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\about.html",
+      "SourceId": "GamingClub.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\",
+      "BasePath": "_content/GamingClub.Server",
+      "RelativePath": "about#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3g53r1vh4w",
+      "Integrity": "Uw16SPX4EdhbxSyFNWPTdkCX0W3+NDIazSJw1/8ticc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\about.html"
+    },
+    {
+      "Identity": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\css\\about.css",
+      "SourceId": "GamingClub.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\",
+      "BasePath": "_content/GamingClub.Server",
+      "RelativePath": "css/about#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "d12e3tygd0",
+      "Integrity": "L2dzXLR30sb3qDK3IIr1blVmgaEcOspuGe8XE/k5MX4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\about.css"
+    },
+    {
+      "Identity": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\css\\index.css",
+      "SourceId": "GamingClub.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\",
+      "BasePath": "_content/GamingClub.Server",
+      "RelativePath": "css/index#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ipttstmyxy",
+      "Integrity": "WrQ/mBy0Hf3lT68O/jnkM0syFdICgpZS5mPI40V47g8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\index.css"
+    },
+    {
+      "Identity": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\css\\make-reservation.css",
+      "SourceId": "GamingClub.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\",
+      "BasePath": "_content/GamingClub.Server",
+      "RelativePath": "css/make-reservation#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "t0w27hlsni",
+      "Integrity": "Y1bbaR9xNeG4CyZhGaSmR6r6bCwBOrLMGPJFz2vRWcg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\make-reservation.css"
+    },
+    {
+      "Identity": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\css\\styles.css",
+      "SourceId": "GamingClub.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\",
+      "BasePath": "_content/GamingClub.Server",
+      "RelativePath": "css/styles#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "btooot6vgp",
+      "Integrity": "YaB6RjQzE4bmkXvdymbKTcfidUgEFhWhIsQtl+Wg+wE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\styles.css"
+    },
+    {
+      "Identity": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\css\\tournaments.css",
+      "SourceId": "GamingClub.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\",
+      "BasePath": "_content/GamingClub.Server",
+      "RelativePath": "css/tournaments#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "x990onqg0r",
+      "Integrity": "9aLzsNcGp+gJ0Z2gKYI2YQ63RqWet3UF4lIz/tX1cwg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\tournaments.css"
+    },
+    {
+      "Identity": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\index.html",
+      "SourceId": "GamingClub.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\",
+      "BasePath": "_content/GamingClub.Server",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6ez9lpoc2m",
+      "Integrity": "kitmqi9pJt3CiQR3zdUyYGqvB+7DM0lR3MmE4YZUDAY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\js\\about.js",
+      "SourceId": "GamingClub.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\",
+      "BasePath": "_content/GamingClub.Server",
+      "RelativePath": "js/about#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "awj4p14t2l",
+      "Integrity": "uhqujUpfE7Zn3X3R77NGKwH0wNFDfhp+lfgfaQVNEuk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\about.js"
+    },
+    {
+      "Identity": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\js\\index.js",
+      "SourceId": "GamingClub.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\",
+      "BasePath": "_content/GamingClub.Server",
+      "RelativePath": "js/index#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qbgn0z2psa",
+      "Integrity": "moEE+VBZLM70BCLBba3ehRUbF2ZbNWTwRVr+gsi7zSQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\index.js"
+    },
+    {
+      "Identity": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\js\\make-reservation.js",
+      "SourceId": "GamingClub.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\",
+      "BasePath": "_content/GamingClub.Server",
+      "RelativePath": "js/make-reservation#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6sfi4vpxh1",
+      "Integrity": "ZlDhq7drtpQaWCaN5/eWjQ0pUbwSrpTdjio8cl/cnlo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\make-reservation.js"
+    },
+    {
+      "Identity": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\js\\navigation.js",
+      "SourceId": "GamingClub.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\",
+      "BasePath": "_content/GamingClub.Server",
+      "RelativePath": "js/navigation#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "sjarde9q7i",
+      "Integrity": "2FwRf1Czjkefc37yEy7JGQOvqCRjJTFXaIEAJQDxfL8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\navigation.js"
+    },
+    {
+      "Identity": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\js\\tournaments.js",
+      "SourceId": "GamingClub.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\",
+      "BasePath": "_content/GamingClub.Server",
+      "RelativePath": "js/tournaments#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xjsybxio3g",
+      "Integrity": "8wtG7EMoEzWTLmGfuPm3jCMLt7E93CF1sQOCT5XR9ho=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\tournaments.js"
+    },
+    {
+      "Identity": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\make-reservation.html",
+      "SourceId": "GamingClub.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\",
+      "BasePath": "_content/GamingClub.Server",
+      "RelativePath": "make-reservation#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ovlg2el8g1",
+      "Integrity": "PKNZa2eV6xKFrF03znkp0O4EsSGFmbRHxI3rQyygQUs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\make-reservation.html"
+    },
+    {
+      "Identity": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\tournaments.html",
+      "SourceId": "GamingClub.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\",
+      "BasePath": "_content/GamingClub.Server",
+      "RelativePath": "tournaments#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "k9lg46m2sh",
+      "Integrity": "qAtaorwilE447MWaMzDz2c7szC0bOsHTqEoS8jlAaUs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\tournaments.html"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "about.3g53r1vh4w.html",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\2039xls2fy-3g53r1vh4w.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000888888889"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1124"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZO/gBiNN3ewb977NKT/fAaj22zFblPUaS1hF+0216FM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 17 May 2025 06:12:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Uw16SPX4EdhbxSyFNWPTdkCX0W3+NDIazSJw1/8ticc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3g53r1vh4w"
+        },
+        {
+          "Name": "label",
+          "Value": "about.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Uw16SPX4EdhbxSyFNWPTdkCX0W3+NDIazSJw1/8ticc="
+        }
+      ]
+    },
+    {
+      "Route": "about.3g53r1vh4w.html",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\about.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2649"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Uw16SPX4EdhbxSyFNWPTdkCX0W3+NDIazSJw1/8ticc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 17 May 2025 06:12:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3g53r1vh4w"
+        },
+        {
+          "Name": "label",
+          "Value": "about.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Uw16SPX4EdhbxSyFNWPTdkCX0W3+NDIazSJw1/8ticc="
+        }
+      ]
+    },
+    {
+      "Route": "about.3g53r1vh4w.html.gz",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\2039xls2fy-3g53r1vh4w.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1124"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZO/gBiNN3ewb977NKT/fAaj22zFblPUaS1hF+0216FM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 17 May 2025 06:12:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3g53r1vh4w"
+        },
+        {
+          "Name": "label",
+          "Value": "about.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZO/gBiNN3ewb977NKT/fAaj22zFblPUaS1hF+0216FM="
+        }
+      ]
+    },
+    {
+      "Route": "about.html",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\2039xls2fy-3g53r1vh4w.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000888888889"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1124"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZO/gBiNN3ewb977NKT/fAaj22zFblPUaS1hF+0216FM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 17 May 2025 06:12:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Uw16SPX4EdhbxSyFNWPTdkCX0W3+NDIazSJw1/8ticc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Uw16SPX4EdhbxSyFNWPTdkCX0W3+NDIazSJw1/8ticc="
+        }
+      ]
+    },
+    {
+      "Route": "about.html",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\about.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2649"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Uw16SPX4EdhbxSyFNWPTdkCX0W3+NDIazSJw1/8ticc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 17 May 2025 06:12:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Uw16SPX4EdhbxSyFNWPTdkCX0W3+NDIazSJw1/8ticc="
+        }
+      ]
+    },
+    {
+      "Route": "about.html.gz",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\2039xls2fy-3g53r1vh4w.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1124"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZO/gBiNN3ewb977NKT/fAaj22zFblPUaS1hF+0216FM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 17 May 2025 06:12:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZO/gBiNN3ewb977NKT/fAaj22zFblPUaS1hF+0216FM="
+        }
+      ]
+    },
+    {
+      "Route": "css/about.css",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\zujug8ejhk-d12e3tygd0.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001584786054"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "630"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S4lbOZMJqSEsoVgkwcuba+hi5S/w3HrCFkPdLwy1SiY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 18:36:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"L2dzXLR30sb3qDK3IIr1blVmgaEcOspuGe8XE/k5MX4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-L2dzXLR30sb3qDK3IIr1blVmgaEcOspuGe8XE/k5MX4="
+        }
+      ]
+    },
+    {
+      "Route": "css/about.css",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\css\\about.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1509"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"L2dzXLR30sb3qDK3IIr1blVmgaEcOspuGe8XE/k5MX4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 18:36:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-L2dzXLR30sb3qDK3IIr1blVmgaEcOspuGe8XE/k5MX4="
+        }
+      ]
+    },
+    {
+      "Route": "css/about.css.gz",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\zujug8ejhk-d12e3tygd0.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "630"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S4lbOZMJqSEsoVgkwcuba+hi5S/w3HrCFkPdLwy1SiY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 18:36:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-S4lbOZMJqSEsoVgkwcuba+hi5S/w3HrCFkPdLwy1SiY="
+        }
+      ]
+    },
+    {
+      "Route": "css/about.d12e3tygd0.css",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\zujug8ejhk-d12e3tygd0.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001584786054"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "630"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S4lbOZMJqSEsoVgkwcuba+hi5S/w3HrCFkPdLwy1SiY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 18:36:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"L2dzXLR30sb3qDK3IIr1blVmgaEcOspuGe8XE/k5MX4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "d12e3tygd0"
+        },
+        {
+          "Name": "label",
+          "Value": "css/about.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-L2dzXLR30sb3qDK3IIr1blVmgaEcOspuGe8XE/k5MX4="
+        }
+      ]
+    },
+    {
+      "Route": "css/about.d12e3tygd0.css",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\css\\about.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1509"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"L2dzXLR30sb3qDK3IIr1blVmgaEcOspuGe8XE/k5MX4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 18:36:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "d12e3tygd0"
+        },
+        {
+          "Name": "label",
+          "Value": "css/about.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-L2dzXLR30sb3qDK3IIr1blVmgaEcOspuGe8XE/k5MX4="
+        }
+      ]
+    },
+    {
+      "Route": "css/about.d12e3tygd0.css.gz",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\zujug8ejhk-d12e3tygd0.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "630"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S4lbOZMJqSEsoVgkwcuba+hi5S/w3HrCFkPdLwy1SiY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 18:36:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "d12e3tygd0"
+        },
+        {
+          "Name": "label",
+          "Value": "css/about.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-S4lbOZMJqSEsoVgkwcuba+hi5S/w3HrCFkPdLwy1SiY="
+        }
+      ]
+    },
+    {
+      "Route": "css/index.css",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\qoccqth3lp-ipttstmyxy.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001044932079"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "956"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PMQc2a52/nJXu7lCKdoJgu7YiiLrBwUmSfFJu7nL5Ec=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 18:25:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"WrQ/mBy0Hf3lT68O/jnkM0syFdICgpZS5mPI40V47g8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WrQ/mBy0Hf3lT68O/jnkM0syFdICgpZS5mPI40V47g8="
+        }
+      ]
+    },
+    {
+      "Route": "css/index.css",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\css\\index.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2733"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WrQ/mBy0Hf3lT68O/jnkM0syFdICgpZS5mPI40V47g8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 18:25:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WrQ/mBy0Hf3lT68O/jnkM0syFdICgpZS5mPI40V47g8="
+        }
+      ]
+    },
+    {
+      "Route": "css/index.css.gz",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\qoccqth3lp-ipttstmyxy.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "956"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PMQc2a52/nJXu7lCKdoJgu7YiiLrBwUmSfFJu7nL5Ec=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 18:25:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PMQc2a52/nJXu7lCKdoJgu7YiiLrBwUmSfFJu7nL5Ec="
+        }
+      ]
+    },
+    {
+      "Route": "css/index.ipttstmyxy.css",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\qoccqth3lp-ipttstmyxy.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001044932079"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "956"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PMQc2a52/nJXu7lCKdoJgu7YiiLrBwUmSfFJu7nL5Ec=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 18:25:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"WrQ/mBy0Hf3lT68O/jnkM0syFdICgpZS5mPI40V47g8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ipttstmyxy"
+        },
+        {
+          "Name": "label",
+          "Value": "css/index.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WrQ/mBy0Hf3lT68O/jnkM0syFdICgpZS5mPI40V47g8="
+        }
+      ]
+    },
+    {
+      "Route": "css/index.ipttstmyxy.css",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\css\\index.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2733"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WrQ/mBy0Hf3lT68O/jnkM0syFdICgpZS5mPI40V47g8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 18:25:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ipttstmyxy"
+        },
+        {
+          "Name": "label",
+          "Value": "css/index.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WrQ/mBy0Hf3lT68O/jnkM0syFdICgpZS5mPI40V47g8="
+        }
+      ]
+    },
+    {
+      "Route": "css/index.ipttstmyxy.css.gz",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\qoccqth3lp-ipttstmyxy.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "956"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PMQc2a52/nJXu7lCKdoJgu7YiiLrBwUmSfFJu7nL5Ec=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 18:25:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ipttstmyxy"
+        },
+        {
+          "Name": "label",
+          "Value": "css/index.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PMQc2a52/nJXu7lCKdoJgu7YiiLrBwUmSfFJu7nL5Ec="
+        }
+      ]
+    },
+    {
+      "Route": "css/make-reservation.css",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\yrcgmvzy1k-t0w27hlsni.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001216545012"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "821"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gj1A+h821mBxBGEEfAJvYs0SX0FSiEq6QqA3D5rGhWo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 17 May 2025 06:36:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Y1bbaR9xNeG4CyZhGaSmR6r6bCwBOrLMGPJFz2vRWcg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Y1bbaR9xNeG4CyZhGaSmR6r6bCwBOrLMGPJFz2vRWcg="
+        }
+      ]
+    },
+    {
+      "Route": "css/make-reservation.css",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\css\\make-reservation.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3543"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Y1bbaR9xNeG4CyZhGaSmR6r6bCwBOrLMGPJFz2vRWcg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 17 May 2025 06:36:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Y1bbaR9xNeG4CyZhGaSmR6r6bCwBOrLMGPJFz2vRWcg="
+        }
+      ]
+    },
+    {
+      "Route": "css/make-reservation.css.gz",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\yrcgmvzy1k-t0w27hlsni.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "821"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gj1A+h821mBxBGEEfAJvYs0SX0FSiEq6QqA3D5rGhWo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 17 May 2025 06:36:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gj1A+h821mBxBGEEfAJvYs0SX0FSiEq6QqA3D5rGhWo="
+        }
+      ]
+    },
+    {
+      "Route": "css/make-reservation.t0w27hlsni.css",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\yrcgmvzy1k-t0w27hlsni.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001216545012"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "821"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gj1A+h821mBxBGEEfAJvYs0SX0FSiEq6QqA3D5rGhWo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 17 May 2025 06:36:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Y1bbaR9xNeG4CyZhGaSmR6r6bCwBOrLMGPJFz2vRWcg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "t0w27hlsni"
+        },
+        {
+          "Name": "label",
+          "Value": "css/make-reservation.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Y1bbaR9xNeG4CyZhGaSmR6r6bCwBOrLMGPJFz2vRWcg="
+        }
+      ]
+    },
+    {
+      "Route": "css/make-reservation.t0w27hlsni.css",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\css\\make-reservation.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3543"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Y1bbaR9xNeG4CyZhGaSmR6r6bCwBOrLMGPJFz2vRWcg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 17 May 2025 06:36:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "t0w27hlsni"
+        },
+        {
+          "Name": "label",
+          "Value": "css/make-reservation.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Y1bbaR9xNeG4CyZhGaSmR6r6bCwBOrLMGPJFz2vRWcg="
+        }
+      ]
+    },
+    {
+      "Route": "css/make-reservation.t0w27hlsni.css.gz",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\yrcgmvzy1k-t0w27hlsni.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "821"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gj1A+h821mBxBGEEfAJvYs0SX0FSiEq6QqA3D5rGhWo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 17 May 2025 06:36:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "t0w27hlsni"
+        },
+        {
+          "Name": "label",
+          "Value": "css/make-reservation.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gj1A+h821mBxBGEEfAJvYs0SX0FSiEq6QqA3D5rGhWo="
+        }
+      ]
+    },
+    {
+      "Route": "css/styles.btooot6vgp.css",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\dngx3rbezw-btooot6vgp.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001926782274"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "518"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xzQ2a3DdBDbZhgEWyLsRpmgqUrv+A+7LM+lz3MCG5Jg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 18:11:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"YaB6RjQzE4bmkXvdymbKTcfidUgEFhWhIsQtl+Wg+wE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "btooot6vgp"
+        },
+        {
+          "Name": "label",
+          "Value": "css/styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YaB6RjQzE4bmkXvdymbKTcfidUgEFhWhIsQtl+Wg+wE="
+        }
+      ]
+    },
+    {
+      "Route": "css/styles.btooot6vgp.css",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\css\\styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1163"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YaB6RjQzE4bmkXvdymbKTcfidUgEFhWhIsQtl+Wg+wE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 18:11:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "btooot6vgp"
+        },
+        {
+          "Name": "label",
+          "Value": "css/styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YaB6RjQzE4bmkXvdymbKTcfidUgEFhWhIsQtl+Wg+wE="
+        }
+      ]
+    },
+    {
+      "Route": "css/styles.btooot6vgp.css.gz",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\dngx3rbezw-btooot6vgp.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "518"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xzQ2a3DdBDbZhgEWyLsRpmgqUrv+A+7LM+lz3MCG5Jg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 18:11:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "btooot6vgp"
+        },
+        {
+          "Name": "label",
+          "Value": "css/styles.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xzQ2a3DdBDbZhgEWyLsRpmgqUrv+A+7LM+lz3MCG5Jg="
+        }
+      ]
+    },
+    {
+      "Route": "css/styles.css",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\dngx3rbezw-btooot6vgp.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001926782274"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "518"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xzQ2a3DdBDbZhgEWyLsRpmgqUrv+A+7LM+lz3MCG5Jg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 18:11:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"YaB6RjQzE4bmkXvdymbKTcfidUgEFhWhIsQtl+Wg+wE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YaB6RjQzE4bmkXvdymbKTcfidUgEFhWhIsQtl+Wg+wE="
+        }
+      ]
+    },
+    {
+      "Route": "css/styles.css",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\css\\styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1163"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YaB6RjQzE4bmkXvdymbKTcfidUgEFhWhIsQtl+Wg+wE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 18:11:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YaB6RjQzE4bmkXvdymbKTcfidUgEFhWhIsQtl+Wg+wE="
+        }
+      ]
+    },
+    {
+      "Route": "css/styles.css.gz",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\dngx3rbezw-btooot6vgp.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "518"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xzQ2a3DdBDbZhgEWyLsRpmgqUrv+A+7LM+lz3MCG5Jg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 18:11:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xzQ2a3DdBDbZhgEWyLsRpmgqUrv+A+7LM+lz3MCG5Jg="
+        }
+      ]
+    },
+    {
+      "Route": "css/tournaments.css",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\3ss7d8if32-x990onqg0r.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001383125864"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "722"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c8OkFSAdqGisBvNVUZPAt1PaOq0V5sF4aLC+kFSU1Qg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 18:36:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"9aLzsNcGp+gJ0Z2gKYI2YQ63RqWet3UF4lIz/tX1cwg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9aLzsNcGp+gJ0Z2gKYI2YQ63RqWet3UF4lIz/tX1cwg="
+        }
+      ]
+    },
+    {
+      "Route": "css/tournaments.css",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\css\\tournaments.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2014"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9aLzsNcGp+gJ0Z2gKYI2YQ63RqWet3UF4lIz/tX1cwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 18:36:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9aLzsNcGp+gJ0Z2gKYI2YQ63RqWet3UF4lIz/tX1cwg="
+        }
+      ]
+    },
+    {
+      "Route": "css/tournaments.css.gz",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\3ss7d8if32-x990onqg0r.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "722"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c8OkFSAdqGisBvNVUZPAt1PaOq0V5sF4aLC+kFSU1Qg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 18:36:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-c8OkFSAdqGisBvNVUZPAt1PaOq0V5sF4aLC+kFSU1Qg="
+        }
+      ]
+    },
+    {
+      "Route": "css/tournaments.x990onqg0r.css",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\3ss7d8if32-x990onqg0r.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001383125864"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "722"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c8OkFSAdqGisBvNVUZPAt1PaOq0V5sF4aLC+kFSU1Qg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 18:36:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"9aLzsNcGp+gJ0Z2gKYI2YQ63RqWet3UF4lIz/tX1cwg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "x990onqg0r"
+        },
+        {
+          "Name": "label",
+          "Value": "css/tournaments.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9aLzsNcGp+gJ0Z2gKYI2YQ63RqWet3UF4lIz/tX1cwg="
+        }
+      ]
+    },
+    {
+      "Route": "css/tournaments.x990onqg0r.css",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\css\\tournaments.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2014"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9aLzsNcGp+gJ0Z2gKYI2YQ63RqWet3UF4lIz/tX1cwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 18:36:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "x990onqg0r"
+        },
+        {
+          "Name": "label",
+          "Value": "css/tournaments.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9aLzsNcGp+gJ0Z2gKYI2YQ63RqWet3UF4lIz/tX1cwg="
+        }
+      ]
+    },
+    {
+      "Route": "css/tournaments.x990onqg0r.css.gz",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\3ss7d8if32-x990onqg0r.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "722"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c8OkFSAdqGisBvNVUZPAt1PaOq0V5sF4aLC+kFSU1Qg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 18:36:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "x990onqg0r"
+        },
+        {
+          "Name": "label",
+          "Value": "css/tournaments.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-c8OkFSAdqGisBvNVUZPAt1PaOq0V5sF4aLC+kFSU1Qg="
+        }
+      ]
+    },
+    {
+      "Route": "index.6ez9lpoc2m.html",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\gz9dgzu2tb-6ez9lpoc2m.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001109877913"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "900"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bCi4t3aoYqIppUlkJeBbstLHHUVUHeGGcOkC+qAukZE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 17 May 2025 06:17:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"kitmqi9pJt3CiQR3zdUyYGqvB+7DM0lR3MmE4YZUDAY=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6ez9lpoc2m"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kitmqi9pJt3CiQR3zdUyYGqvB+7DM0lR3MmE4YZUDAY="
+        }
+      ]
+    },
+    {
+      "Route": "index.6ez9lpoc2m.html",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2357"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kitmqi9pJt3CiQR3zdUyYGqvB+7DM0lR3MmE4YZUDAY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 17 May 2025 06:17:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6ez9lpoc2m"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kitmqi9pJt3CiQR3zdUyYGqvB+7DM0lR3MmE4YZUDAY="
+        }
+      ]
+    },
+    {
+      "Route": "index.6ez9lpoc2m.html.gz",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\gz9dgzu2tb-6ez9lpoc2m.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "900"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bCi4t3aoYqIppUlkJeBbstLHHUVUHeGGcOkC+qAukZE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 17 May 2025 06:17:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6ez9lpoc2m"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bCi4t3aoYqIppUlkJeBbstLHHUVUHeGGcOkC+qAukZE="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\gz9dgzu2tb-6ez9lpoc2m.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001109877913"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "900"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bCi4t3aoYqIppUlkJeBbstLHHUVUHeGGcOkC+qAukZE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 17 May 2025 06:17:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"kitmqi9pJt3CiQR3zdUyYGqvB+7DM0lR3MmE4YZUDAY=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kitmqi9pJt3CiQR3zdUyYGqvB+7DM0lR3MmE4YZUDAY="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2357"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kitmqi9pJt3CiQR3zdUyYGqvB+7DM0lR3MmE4YZUDAY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 17 May 2025 06:17:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kitmqi9pJt3CiQR3zdUyYGqvB+7DM0lR3MmE4YZUDAY="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.gz",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\gz9dgzu2tb-6ez9lpoc2m.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "900"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bCi4t3aoYqIppUlkJeBbstLHHUVUHeGGcOkC+qAukZE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 17 May 2025 06:17:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bCi4t3aoYqIppUlkJeBbstLHHUVUHeGGcOkC+qAukZE="
+        }
+      ]
+    },
+    {
+      "Route": "js/about.awj4p14t2l.js",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\9ry9lh5dnt-awj4p14t2l.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003508771930"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "284"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"I50813z4BebZgWJiMCIekZff7x0nhCBOczOQE8dHd1Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 17:54:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"uhqujUpfE7Zn3X3R77NGKwH0wNFDfhp+lfgfaQVNEuk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "awj4p14t2l"
+        },
+        {
+          "Name": "label",
+          "Value": "js/about.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-uhqujUpfE7Zn3X3R77NGKwH0wNFDfhp+lfgfaQVNEuk="
+        }
+      ]
+    },
+    {
+      "Route": "js/about.awj4p14t2l.js",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\js\\about.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "384"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uhqujUpfE7Zn3X3R77NGKwH0wNFDfhp+lfgfaQVNEuk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 17:54:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "awj4p14t2l"
+        },
+        {
+          "Name": "label",
+          "Value": "js/about.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-uhqujUpfE7Zn3X3R77NGKwH0wNFDfhp+lfgfaQVNEuk="
+        }
+      ]
+    },
+    {
+      "Route": "js/about.awj4p14t2l.js.gz",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\9ry9lh5dnt-awj4p14t2l.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "284"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"I50813z4BebZgWJiMCIekZff7x0nhCBOczOQE8dHd1Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 17:54:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "awj4p14t2l"
+        },
+        {
+          "Name": "label",
+          "Value": "js/about.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-I50813z4BebZgWJiMCIekZff7x0nhCBOczOQE8dHd1Y="
+        }
+      ]
+    },
+    {
+      "Route": "js/about.js",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\9ry9lh5dnt-awj4p14t2l.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003508771930"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "284"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"I50813z4BebZgWJiMCIekZff7x0nhCBOczOQE8dHd1Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 17:54:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"uhqujUpfE7Zn3X3R77NGKwH0wNFDfhp+lfgfaQVNEuk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-uhqujUpfE7Zn3X3R77NGKwH0wNFDfhp+lfgfaQVNEuk="
+        }
+      ]
+    },
+    {
+      "Route": "js/about.js",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\js\\about.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "384"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uhqujUpfE7Zn3X3R77NGKwH0wNFDfhp+lfgfaQVNEuk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 17:54:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-uhqujUpfE7Zn3X3R77NGKwH0wNFDfhp+lfgfaQVNEuk="
+        }
+      ]
+    },
+    {
+      "Route": "js/about.js.gz",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\9ry9lh5dnt-awj4p14t2l.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "284"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"I50813z4BebZgWJiMCIekZff7x0nhCBOczOQE8dHd1Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 17:54:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-I50813z4BebZgWJiMCIekZff7x0nhCBOczOQE8dHd1Y="
+        }
+      ]
+    },
+    {
+      "Route": "js/index.js",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\pirnojxni4-qbgn0z2psa.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001118568233"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "893"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iQP5Uq7UOP6FUV5HRlK0eixDZpffUlCpRLMv4UC9Adw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 May 2025 16:54:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"moEE+VBZLM70BCLBba3ehRUbF2ZbNWTwRVr+gsi7zSQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-moEE+VBZLM70BCLBba3ehRUbF2ZbNWTwRVr+gsi7zSQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/index.js",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\js\\index.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2975"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"moEE+VBZLM70BCLBba3ehRUbF2ZbNWTwRVr+gsi7zSQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 May 2025 16:54:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-moEE+VBZLM70BCLBba3ehRUbF2ZbNWTwRVr+gsi7zSQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/index.js.gz",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\pirnojxni4-qbgn0z2psa.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "893"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iQP5Uq7UOP6FUV5HRlK0eixDZpffUlCpRLMv4UC9Adw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 May 2025 16:54:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-iQP5Uq7UOP6FUV5HRlK0eixDZpffUlCpRLMv4UC9Adw="
+        }
+      ]
+    },
+    {
+      "Route": "js/index.qbgn0z2psa.js",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\pirnojxni4-qbgn0z2psa.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001118568233"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "893"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iQP5Uq7UOP6FUV5HRlK0eixDZpffUlCpRLMv4UC9Adw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 May 2025 16:54:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"moEE+VBZLM70BCLBba3ehRUbF2ZbNWTwRVr+gsi7zSQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qbgn0z2psa"
+        },
+        {
+          "Name": "label",
+          "Value": "js/index.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-moEE+VBZLM70BCLBba3ehRUbF2ZbNWTwRVr+gsi7zSQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/index.qbgn0z2psa.js",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\js\\index.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2975"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"moEE+VBZLM70BCLBba3ehRUbF2ZbNWTwRVr+gsi7zSQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 May 2025 16:54:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qbgn0z2psa"
+        },
+        {
+          "Name": "label",
+          "Value": "js/index.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-moEE+VBZLM70BCLBba3ehRUbF2ZbNWTwRVr+gsi7zSQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/index.qbgn0z2psa.js.gz",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\pirnojxni4-qbgn0z2psa.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "893"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iQP5Uq7UOP6FUV5HRlK0eixDZpffUlCpRLMv4UC9Adw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 May 2025 16:54:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qbgn0z2psa"
+        },
+        {
+          "Name": "label",
+          "Value": "js/index.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-iQP5Uq7UOP6FUV5HRlK0eixDZpffUlCpRLMv4UC9Adw="
+        }
+      ]
+    },
+    {
+      "Route": "js/make-reservation.6sfi4vpxh1.js",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\ffeffd50vb-6sfi4vpxh1.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000429553265"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2327"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"H7tWP8AxOvTPZq2iwOTbvU9+QRA+8mcOb3kgPr6tMl0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 17 May 2025 06:50:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ZlDhq7drtpQaWCaN5/eWjQ0pUbwSrpTdjio8cl/cnlo=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6sfi4vpxh1"
+        },
+        {
+          "Name": "label",
+          "Value": "js/make-reservation.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZlDhq7drtpQaWCaN5/eWjQ0pUbwSrpTdjio8cl/cnlo="
+        }
+      ]
+    },
+    {
+      "Route": "js/make-reservation.6sfi4vpxh1.js",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\js\\make-reservation.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8999"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZlDhq7drtpQaWCaN5/eWjQ0pUbwSrpTdjio8cl/cnlo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 17 May 2025 06:50:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6sfi4vpxh1"
+        },
+        {
+          "Name": "label",
+          "Value": "js/make-reservation.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZlDhq7drtpQaWCaN5/eWjQ0pUbwSrpTdjio8cl/cnlo="
+        }
+      ]
+    },
+    {
+      "Route": "js/make-reservation.6sfi4vpxh1.js.gz",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\ffeffd50vb-6sfi4vpxh1.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2327"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"H7tWP8AxOvTPZq2iwOTbvU9+QRA+8mcOb3kgPr6tMl0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 17 May 2025 06:50:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6sfi4vpxh1"
+        },
+        {
+          "Name": "label",
+          "Value": "js/make-reservation.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-H7tWP8AxOvTPZq2iwOTbvU9+QRA+8mcOb3kgPr6tMl0="
+        }
+      ]
+    },
+    {
+      "Route": "js/make-reservation.js",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\ffeffd50vb-6sfi4vpxh1.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000429553265"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2327"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"H7tWP8AxOvTPZq2iwOTbvU9+QRA+8mcOb3kgPr6tMl0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 17 May 2025 06:50:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ZlDhq7drtpQaWCaN5/eWjQ0pUbwSrpTdjio8cl/cnlo=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZlDhq7drtpQaWCaN5/eWjQ0pUbwSrpTdjio8cl/cnlo="
+        }
+      ]
+    },
+    {
+      "Route": "js/make-reservation.js",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\js\\make-reservation.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8999"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZlDhq7drtpQaWCaN5/eWjQ0pUbwSrpTdjio8cl/cnlo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 17 May 2025 06:50:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZlDhq7drtpQaWCaN5/eWjQ0pUbwSrpTdjio8cl/cnlo="
+        }
+      ]
+    },
+    {
+      "Route": "js/make-reservation.js.gz",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\ffeffd50vb-6sfi4vpxh1.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2327"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"H7tWP8AxOvTPZq2iwOTbvU9+QRA+8mcOb3kgPr6tMl0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 17 May 2025 06:50:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-H7tWP8AxOvTPZq2iwOTbvU9+QRA+8mcOb3kgPr6tMl0="
+        }
+      ]
+    },
+    {
+      "Route": "js/navigation.js",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\5bg7l7r34a-sjarde9q7i.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001242236025"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "804"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kZRFH5TuwEhBwpChw9MyQMTnkUReF8i6SXE1fasqj+U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 18:04:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"2FwRf1Czjkefc37yEy7JGQOvqCRjJTFXaIEAJQDxfL8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2FwRf1Czjkefc37yEy7JGQOvqCRjJTFXaIEAJQDxfL8="
+        }
+      ]
+    },
+    {
+      "Route": "js/navigation.js",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\js\\navigation.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2002"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2FwRf1Czjkefc37yEy7JGQOvqCRjJTFXaIEAJQDxfL8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 18:04:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2FwRf1Czjkefc37yEy7JGQOvqCRjJTFXaIEAJQDxfL8="
+        }
+      ]
+    },
+    {
+      "Route": "js/navigation.js.gz",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\5bg7l7r34a-sjarde9q7i.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "804"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kZRFH5TuwEhBwpChw9MyQMTnkUReF8i6SXE1fasqj+U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 18:04:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kZRFH5TuwEhBwpChw9MyQMTnkUReF8i6SXE1fasqj+U="
+        }
+      ]
+    },
+    {
+      "Route": "js/navigation.sjarde9q7i.js",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\5bg7l7r34a-sjarde9q7i.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001242236025"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "804"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kZRFH5TuwEhBwpChw9MyQMTnkUReF8i6SXE1fasqj+U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 18:04:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"2FwRf1Czjkefc37yEy7JGQOvqCRjJTFXaIEAJQDxfL8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sjarde9q7i"
+        },
+        {
+          "Name": "label",
+          "Value": "js/navigation.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2FwRf1Czjkefc37yEy7JGQOvqCRjJTFXaIEAJQDxfL8="
+        }
+      ]
+    },
+    {
+      "Route": "js/navigation.sjarde9q7i.js",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\js\\navigation.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2002"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2FwRf1Czjkefc37yEy7JGQOvqCRjJTFXaIEAJQDxfL8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 18:04:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sjarde9q7i"
+        },
+        {
+          "Name": "label",
+          "Value": "js/navigation.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2FwRf1Czjkefc37yEy7JGQOvqCRjJTFXaIEAJQDxfL8="
+        }
+      ]
+    },
+    {
+      "Route": "js/navigation.sjarde9q7i.js.gz",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\5bg7l7r34a-sjarde9q7i.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "804"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kZRFH5TuwEhBwpChw9MyQMTnkUReF8i6SXE1fasqj+U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 18:04:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sjarde9q7i"
+        },
+        {
+          "Name": "label",
+          "Value": "js/navigation.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kZRFH5TuwEhBwpChw9MyQMTnkUReF8i6SXE1fasqj+U="
+        }
+      ]
+    },
+    {
+      "Route": "js/tournaments.js",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\6myf7j1xjv-xjsybxio3g.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003134796238"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "318"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8F8SzuTelTMBy64roVWXGRlon70pZBkRB3MjuPXg53I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 17:54:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"8wtG7EMoEzWTLmGfuPm3jCMLt7E93CF1sQOCT5XR9ho=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8wtG7EMoEzWTLmGfuPm3jCMLt7E93CF1sQOCT5XR9ho="
+        }
+      ]
+    },
+    {
+      "Route": "js/tournaments.js",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\js\\tournaments.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "451"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8wtG7EMoEzWTLmGfuPm3jCMLt7E93CF1sQOCT5XR9ho=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 17:54:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8wtG7EMoEzWTLmGfuPm3jCMLt7E93CF1sQOCT5XR9ho="
+        }
+      ]
+    },
+    {
+      "Route": "js/tournaments.js.gz",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\6myf7j1xjv-xjsybxio3g.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "318"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8F8SzuTelTMBy64roVWXGRlon70pZBkRB3MjuPXg53I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 17:54:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8F8SzuTelTMBy64roVWXGRlon70pZBkRB3MjuPXg53I="
+        }
+      ]
+    },
+    {
+      "Route": "js/tournaments.xjsybxio3g.js",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\6myf7j1xjv-xjsybxio3g.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003134796238"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "318"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8F8SzuTelTMBy64roVWXGRlon70pZBkRB3MjuPXg53I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 17:54:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"8wtG7EMoEzWTLmGfuPm3jCMLt7E93CF1sQOCT5XR9ho=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xjsybxio3g"
+        },
+        {
+          "Name": "label",
+          "Value": "js/tournaments.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8wtG7EMoEzWTLmGfuPm3jCMLt7E93CF1sQOCT5XR9ho="
+        }
+      ]
+    },
+    {
+      "Route": "js/tournaments.xjsybxio3g.js",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\js\\tournaments.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "451"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8wtG7EMoEzWTLmGfuPm3jCMLt7E93CF1sQOCT5XR9ho=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 17:54:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xjsybxio3g"
+        },
+        {
+          "Name": "label",
+          "Value": "js/tournaments.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8wtG7EMoEzWTLmGfuPm3jCMLt7E93CF1sQOCT5XR9ho="
+        }
+      ]
+    },
+    {
+      "Route": "js/tournaments.xjsybxio3g.js.gz",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\6myf7j1xjv-xjsybxio3g.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "318"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8F8SzuTelTMBy64roVWXGRlon70pZBkRB3MjuPXg53I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 17:54:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xjsybxio3g"
+        },
+        {
+          "Name": "label",
+          "Value": "js/tournaments.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8F8SzuTelTMBy64roVWXGRlon70pZBkRB3MjuPXg53I="
+        }
+      ]
+    },
+    {
+      "Route": "make-reservation.html",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\1mbzupuye1-ovlg2el8g1.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001005025126"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "994"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FNmEhCzOTIBvBjMk44PGiN7g/4J+ccGkU1T6fKvDAcY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 17 May 2025 06:53:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"PKNZa2eV6xKFrF03znkp0O4EsSGFmbRHxI3rQyygQUs=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PKNZa2eV6xKFrF03znkp0O4EsSGFmbRHxI3rQyygQUs="
+        }
+      ]
+    },
+    {
+      "Route": "make-reservation.html",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\make-reservation.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4222"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PKNZa2eV6xKFrF03znkp0O4EsSGFmbRHxI3rQyygQUs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 17 May 2025 06:53:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PKNZa2eV6xKFrF03znkp0O4EsSGFmbRHxI3rQyygQUs="
+        }
+      ]
+    },
+    {
+      "Route": "make-reservation.html.gz",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\1mbzupuye1-ovlg2el8g1.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "994"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FNmEhCzOTIBvBjMk44PGiN7g/4J+ccGkU1T6fKvDAcY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 17 May 2025 06:53:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FNmEhCzOTIBvBjMk44PGiN7g/4J+ccGkU1T6fKvDAcY="
+        }
+      ]
+    },
+    {
+      "Route": "make-reservation.ovlg2el8g1.html",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\1mbzupuye1-ovlg2el8g1.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001005025126"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "994"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FNmEhCzOTIBvBjMk44PGiN7g/4J+ccGkU1T6fKvDAcY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 17 May 2025 06:53:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"PKNZa2eV6xKFrF03znkp0O4EsSGFmbRHxI3rQyygQUs=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ovlg2el8g1"
+        },
+        {
+          "Name": "label",
+          "Value": "make-reservation.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PKNZa2eV6xKFrF03znkp0O4EsSGFmbRHxI3rQyygQUs="
+        }
+      ]
+    },
+    {
+      "Route": "make-reservation.ovlg2el8g1.html",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\make-reservation.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4222"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PKNZa2eV6xKFrF03znkp0O4EsSGFmbRHxI3rQyygQUs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 17 May 2025 06:53:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ovlg2el8g1"
+        },
+        {
+          "Name": "label",
+          "Value": "make-reservation.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PKNZa2eV6xKFrF03znkp0O4EsSGFmbRHxI3rQyygQUs="
+        }
+      ]
+    },
+    {
+      "Route": "make-reservation.ovlg2el8g1.html.gz",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\1mbzupuye1-ovlg2el8g1.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "994"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FNmEhCzOTIBvBjMk44PGiN7g/4J+ccGkU1T6fKvDAcY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 17 May 2025 06:53:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ovlg2el8g1"
+        },
+        {
+          "Name": "label",
+          "Value": "make-reservation.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FNmEhCzOTIBvBjMk44PGiN7g/4J+ccGkU1T6fKvDAcY="
+        }
+      ]
+    },
+    {
+      "Route": "tournaments.html",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\xkrnibdmqt-k9lg46m2sh.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001464128843"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "682"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vuyWuc5ndHNszQM8quq7tuzX54Wu1gJ7CCrFZhZfMq0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 17 May 2025 06:12:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"qAtaorwilE447MWaMzDz2c7szC0bOsHTqEoS8jlAaUs=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qAtaorwilE447MWaMzDz2c7szC0bOsHTqEoS8jlAaUs="
+        }
+      ]
+    },
+    {
+      "Route": "tournaments.html",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\tournaments.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2457"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qAtaorwilE447MWaMzDz2c7szC0bOsHTqEoS8jlAaUs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 17 May 2025 06:12:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qAtaorwilE447MWaMzDz2c7szC0bOsHTqEoS8jlAaUs="
+        }
+      ]
+    },
+    {
+      "Route": "tournaments.html.gz",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\xkrnibdmqt-k9lg46m2sh.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "682"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vuyWuc5ndHNszQM8quq7tuzX54Wu1gJ7CCrFZhZfMq0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 17 May 2025 06:12:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vuyWuc5ndHNszQM8quq7tuzX54Wu1gJ7CCrFZhZfMq0="
+        }
+      ]
+    },
+    {
+      "Route": "tournaments.k9lg46m2sh.html",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\xkrnibdmqt-k9lg46m2sh.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001464128843"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "682"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vuyWuc5ndHNszQM8quq7tuzX54Wu1gJ7CCrFZhZfMq0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 17 May 2025 06:12:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"qAtaorwilE447MWaMzDz2c7szC0bOsHTqEoS8jlAaUs=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "k9lg46m2sh"
+        },
+        {
+          "Name": "label",
+          "Value": "tournaments.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qAtaorwilE447MWaMzDz2c7szC0bOsHTqEoS8jlAaUs="
+        }
+      ]
+    },
+    {
+      "Route": "tournaments.k9lg46m2sh.html",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\wwwroot\\tournaments.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2457"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qAtaorwilE447MWaMzDz2c7szC0bOsHTqEoS8jlAaUs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 17 May 2025 06:12:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "k9lg46m2sh"
+        },
+        {
+          "Name": "label",
+          "Value": "tournaments.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qAtaorwilE447MWaMzDz2c7szC0bOsHTqEoS8jlAaUs="
+        }
+      ]
+    },
+    {
+      "Route": "tournaments.k9lg46m2sh.html.gz",
+      "AssetFile": "D:\\Универ\\Курсовые\\ООП, курсовая, 3 сем\\GamingClub\\GamingClub\\obj\\Debug\\net9.0\\compressed\\xkrnibdmqt-k9lg46m2sh.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "682"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vuyWuc5ndHNszQM8quq7tuzX54Wu1gJ7CCrFZhZfMq0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 17 May 2025 06:12:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "k9lg46m2sh"
+        },
+        {
+          "Name": "label",
+          "Value": "tournaments.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vuyWuc5ndHNszQM8quq7tuzX54Wu1gJ7CCrFZhZfMq0="
+        }
+      ]
+    }
+  ]
 }

@@ -14,19 +14,9 @@ namespace GamingClub.Application.Mappers
             {
                 Id = entity.Id,
                 UserId = entity.UserId,
-                ReservationUnits = from unit in entity.ReservationUnits
-                                   select unit.MapToReservationUnitDTO()
-            };
-        }
-
-        public static ReservationCreateDTO MapToReservationCreateDTO(this ReservationEntity entity)
-        {
-            return new ReservationCreateDTO
-            {
-                Id = entity.Id,
-                UserId = entity.UserId,
-                ReservationUnits = from unit in entity.ReservationUnits
-                                   select unit.MapToReservationUnitCreateDTO()
+                GamingStationId = entity.GamingStationId,
+                StartDate = entity.StartDate,
+                EndDate = entity.EndDate
             };
         }
 
@@ -39,36 +29,23 @@ namespace GamingClub.Application.Mappers
             {
                 Id = DTO.Id,
                 UserId = DTO.UserId,
-                ReservationUnits = from unit in DTO.ReservationUnits
-                                   select unit.MapToReservationUnitEntity()
-            };
-        }
-
-        /// <summary>
-        /// ReservationCreateDTO
-        /// </summary>
-        public static ReservationEntity MapToReservationEntity(this ReservationCreateDTO DTO)
-        {
-            return new ReservationEntity
-            {
-                Id = DTO.Id,
-                UserId = DTO.UserId,
-                ReservationUnits = from unit in DTO.ReservationUnits
-                                   select unit.MapToReservationUnitEntity()
+                GamingStationId = DTO.GamingStationId,
+                StartDate = DTO.StartDate,
+                EndDate = DTO.EndDate
             };
         }
 
         /// <summary>
         /// ReservationUpdateDTO
         /// </summary>
-        public static ReservationEntity MapToReservationEntity(this ReservationUpdateDTO DTO)
+        public static ReservationEntity MapToReservationEntity(this ReservationUpdateDTO DTO, int reservationId)
         {
             return new ReservationEntity
             {
-                Id = DTO.Id,
-                UserId = DTO.UserId,
-                ReservationUnits = from unit in DTO.ReservationUnits
-                                   select unit.MapToReservationUnitEntity()
+                Id = reservationId,
+                GamingStationId = DTO.GamingStationId,
+                StartDate = DTO.StartDate,
+                EndDate = DTO.EndDate
             };
         }
     }

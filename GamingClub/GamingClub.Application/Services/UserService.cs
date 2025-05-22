@@ -5,18 +5,33 @@ using GamingClub.Domain.Interfaces;
 
 namespace GamingClub.Application.Services
 {
-    public class UserService(IUserRepository userRepository) : IUserService
+    public class UserService(IUserRepository userRepository, 
+                             IUserSerializer userSerializer) : IUserService
     {
-        public async Task CreateUserAsync(UserCreateDTO user)
+
+        public async Task<UserDTO> GetUserByIdAsync(int id)
+        {
+            var user = (await userRepository.GetUserByIdAsync(id)).MapToUserDTO();
+            await userSerializer.SerializeToFileAsync(user);
+
+            return user;
+        }
+        public async Task<UserWithReservationsDTO> GetUserWithReservationsByIdAsync(int id)
+        {
+            var user = (await userRepository.GetUserWithReservationsByIdAsync(id)).MapToUserWithReservationsDTO();
+
+            return user;
+        }
+
+        public async Task CreateUserAsync(UserDTO user)
         {
             var userEntity = user.MapToUserEntity();
             await userRepository.CreateUserAsync(userEntity);
         }
 
-        public async Task<UserDTO> GetUserByIdAsync(int id)
+        public async Task<UserDTO?> GetUserFromFileAsync(int id)
         {
-            var user = (await userRepository.GetUserByIdAsync(id)).MapToUserDTO();
-            return user;
+            return await userSerializer.DeserializeFromFileAsync(id);
         }
 
         public async Task UpdateUserAsync(UserUpdateDTO user, int id)
@@ -29,5 +44,6 @@ namespace GamingClub.Application.Services
         {
             await userRepository.DeleteUserByIdAsync(id);
         }
+
     }
 }

@@ -1,6 +1,6 @@
 ﻿public enum GamingStationType
 {
-    PC,
-    XBOX,
-    VR
+    PC = 1,
+    XBOX = 2,
+    VR = 3
 }

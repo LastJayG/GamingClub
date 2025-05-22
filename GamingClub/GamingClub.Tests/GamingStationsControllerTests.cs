@@ -23,8 +23,8 @@ namespace GamingClub.Tests
             // Arrange
             var testStations = new List<GamingStationEntity>
             {
-                new GamingStationEntity { Id = 1, Type = GamingStationType.PC, IsFree = true },
-                new GamingStationEntity { Id = 2, Type = GamingStationType.VR, IsFree = false }
+                new GamingStationEntity { Id = 1, Type = GamingStationType.PC},
+                new GamingStationEntity { Id = 2, Type = GamingStationType.VR}
             };
 
             _mockRepo.Setup(repo => repo.GetGamingStationsAsync())

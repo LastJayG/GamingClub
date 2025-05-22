@@ -1,4 +1,5 @@
-﻿using GamingClub.Application.DTOs.User;
+﻿using GamingClub.Application.DTOs.Reservation;
+using GamingClub.Application.DTOs.User;
 using GamingClub.Domain.Entities;
 
 namespace GamingClub.Application.Mappers
@@ -18,16 +19,6 @@ namespace GamingClub.Application.Mappers
             };
         }
 
-        public static UserCreateDTO MapToUserCreateDTO(this UserEntity entity)
-        {
-            return new UserCreateDTO
-            {
-                Id = entity.Id,
-                Username = entity.Username,
-                Email = entity.Email
-            };
-        }
-
         public static UserUpdateDTO MapToUserUpdateDTO(this UserEntity entity)
         {
             return new UserUpdateDTO
@@ -37,23 +28,21 @@ namespace GamingClub.Application.Mappers
             };
         }
 
-        /// <summary>
-        /// UserDTO
-        /// </summary>
-        public static UserEntity MapToUserEntity(this UserDTO DTO)
+        public static UserWithReservationsDTO MapToUserWithReservationsDTO(this UserEntity entity)
         {
-            return new UserEntity
+            return new UserWithReservationsDTO
             {
-                Id = DTO.Id,
-                Username = DTO.Username,
-                Email = DTO.Email
+                Username = entity.Username,
+                Email = entity.Email,
+                Reservations = from reservation in entity.Reservations
+                               select reservation.MapToReservationDTO()
             };
         }
 
         /// <summary>
-        /// UserCreateDTO
+        /// UserDTO
         /// </summary>
-        public static UserEntity MapToUserEntity(this UserCreateDTO DTO)
+        public static UserEntity MapToUserEntity(this UserDTO DTO)
         {
             return new UserEntity
             {
@@ -76,7 +65,7 @@ namespace GamingClub.Application.Mappers
         }
 
         /// <summary>
-        /// UserUpdateDTO
+        /// UserWithReservationsDTO
         /// </summary>
         public static UserEntity MapToUserEntity(this UserWithReservationsDTO DTO)
         {

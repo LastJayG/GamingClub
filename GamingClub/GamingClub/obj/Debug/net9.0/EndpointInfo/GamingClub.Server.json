@@ -2,10 +2,22 @@
   "openapi": "3.0.4",
   "info": {
     "title": "GamingClub API",
-    "description": "API для управления GamingClub",
+    "description": "API для GamingClub",
     "version": "v1"
   },
   "paths": {
+    "/About": {
+      "get": {
+        "tags": [
+          "About"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/GamingStations": {
       "get": {
         "tags": [
@@ -18,7 +30,7 @@
         }
       }
     },
-    "/api/Home": {
+    "/Home": {
       "get": {
         "tags": [
           "Home"
@@ -63,21 +75,75 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/ReservationCreateDTO"
+                "$ref": "#/components/schemas/ReservationDTO"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/ReservationCreateDTO"
+                "$ref": "#/components/schemas/ReservationDTO"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/ReservationCreateDTO"
+                "$ref": "#/components/schemas/ReservationDTO"
               }
             }
           }
         },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Reservations/UpdateReservation/{id}": {
+      "put": {
+        "tags": [
+          "Reservations"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ReservationUpdateDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ReservationUpdateDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ReservationUpdateDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Tournaments": {
+      "get": {
+        "tags": [
+          "Tournaments"
+        ],
         "responses": {
           "200": {
             "description": "OK"
@@ -109,6 +175,52 @@
         }
       }
     },
+    "/api/Users/GetUserWithReservations/{id}": {
+      "get": {
+        "tags": [
+          "Users"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Users/FromFile/{id}": {
+      "get": {
+        "tags": [
+          "Users"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Users/CreateUser": {
       "post": {
         "tags": [
@@ -118,17 +230,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/UserCreateDTO"
+                "$ref": "#/components/schemas/UserDTO"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/UserCreateDTO"
+                "$ref": "#/components/schemas/UserDTO"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/UserCreateDTO"
+                "$ref": "#/components/schemas/UserDTO"
               }
             }
           }
@@ -207,7 +319,7 @@
   },
   "components": {
     "schemas": {
-      "ReservationCreateDTO": {
+      "ReservationDTO": {
         "type": "object",
         "properties": {
           "Id": {
@@ -218,35 +330,44 @@
             "type": "integer",
             "format": "int32"
           },
-          "ReservationUnits": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/ReservationUnitCreateDTO"
-            },
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "ReservationUnitCreateDTO": {
-        "type": "object",
-        "properties": {
-          "StartDate": {
-            "type": "string",
-            "format": "date-time"
-          },
-          "EndDate": {
-            "type": "string",
-            "format": "date-time"
-          },
           "GamingStationId": {
             "type": "integer",
             "format": "int32"
+          },
+          "StartDateShort": {
+            "type": "string",
+            "nullable": true,
+            "readOnly": true
+          },
+          "EndDateShort": {
+            "type": "string",
+            "nullable": true,
+            "readOnly": true
           }
         },
         "additionalProperties": false
       },
-      "UserCreateDTO": {
+      "ReservationUpdateDTO": {
+        "type": "object",
+        "properties": {
+          "GamingStationId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "StartDateShort": {
+            "type": "string",
+            "nullable": true,
+            "readOnly": true
+          },
+          "EndDateShort": {
+            "type": "string",
+            "nullable": true,
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UserDTO": {
         "type": "object",
         "properties": {
           "Id": {

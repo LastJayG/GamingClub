@@ -3,19 +3,13 @@
 namespace GamingClub.Server.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
-	public class HomeController : ControllerBase
+    [Route("/[controller]")]
+    public class HomeController : ControllerBase
     {
         [HttpGet]
         public IActionResult Index()
         {
-            var response = new
-            {
-                Message = "Welcome to GamingClub Api",
-                Status = "OK",
-                TimestampAttribute = DateTime.Now
-            };
-            return Ok(response);
+            return File("~/index.html", "text/html");
         }
 
 	}

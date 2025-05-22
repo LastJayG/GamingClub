@@ -1,0 +1,110 @@
+﻿/* Общие стили */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #0f0f1a;
+    color: #ffffff;
+}
+
+/* Шапка */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background-color: #1a1a2e;
+    border-bottom: 2px solid #4cc9f0;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #4cc9f0;
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+    nav ul li {
+        margin-left: 30px;
+    }
+
+        nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+            nav ul li a:hover {
+                color: #4cc9f0;
+            }
+
+/* Кнопки авторизации */
+.auth-buttons a {
+    margin-left: 15px;
+    padding: 8px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.login-btn {
+    color: #ffffff;
+    border: 1px solid #4cc9f0;
+}
+
+.register-btn {
+    background-color: #4cc9f0;
+    color: #0f0f1a;
+}
+
+/* Остальные стили для tournaments.html */
+.content {
+    padding: 50px 10%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #4cc9f0;
+    margin-bottom: 30px;
+    font-size: 36px;
+}
+
+.tournament {
+    background-color: #1a1a2e;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border-left: 4px solid #f72585;
+}
+
+    .tournament h2 {
+        color: #4cc9f0;
+        margin-bottom: 10px;
+    }
+
+    .tournament p {
+        margin-bottom: 10px;
+        line-height: 1.6;
+    }
+
+.register-btn {
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: #f72585;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+}

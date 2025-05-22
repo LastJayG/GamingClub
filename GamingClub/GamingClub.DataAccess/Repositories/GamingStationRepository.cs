@@ -20,22 +20,12 @@ namespace GamingClub.Data.Repositories
         public async Task CreateGamingStationAsync(GamingStationEntity gamingStation)
         {
             var newGamingStation = new GamingStationEntity();
-            gamingStation.IsFree = gamingStation.IsFree;
             gamingStation.Type = gamingStation.Type;
 
             gamingClubContext.GamingStations.Add(gamingStation);
 
             await gamingClubContext.SaveChangesAsync();
         }
-
-        //public async Task DeleteGamingStationByIdAsync(int id)
-        //{
-        //    var reservation = await gamingClubContext.Reservations
-        //        .AsNoTracking()
-        //        .FirstOrDefaultAsync(r => r.Id == id);
-        //    gamingClubContext.Reservations.Remove(reservation);
-        //    await gamingClubContext.SaveChangesAsync();
-        //}
 
     }
 }

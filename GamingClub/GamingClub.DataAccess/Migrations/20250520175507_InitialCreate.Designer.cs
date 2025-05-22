@@ -8,10 +8,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
-namespace GamingClub.Domain.Migrations
+namespace GamingClub.Data.Migrations
 {
     [DbContext(typeof(GamingClubContext))]
-    [Migration("20250430135920_InitialCreate")]
+    [Migration("20250520175507_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -22,14 +22,11 @@ namespace GamingClub.Domain.Migrations
                 .HasAnnotation("ProductVersion", "9.0.4")
                 .HasAnnotation("Relational:MaxIdentifierLength", 64);
 
-            modelBuilder.Entity("GamingClub.Core.Entities.GamingStationEntity", b =>
+            modelBuilder.Entity("GamingClub.Domain.Entities.GamingStationEntity", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
-
-                    b.Property<bool>("IsFree")
-                        .HasColumnType("tinyint(1)");
 
                     b.Property<int>("Type")
                         .HasColumnType("int");
@@ -39,7 +36,7 @@ namespace GamingClub.Domain.Migrations
                     b.ToTable("gamingstation");
                 });
 
-            modelBuilder.Entity("GamingClub.Core.Entities.ReservationEntity", b =>
+            modelBuilder.Entity("GamingClub.Domain.Entities.ReservationEntity", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -47,6 +44,9 @@ namespace GamingClub.Domain.Migrations
 
                     b.Property<DateTime>("EndDate")
                         .HasColumnType("datetime(6)");
+
+                    b.Property<int>("GamingStationId")
+                        .HasColumnType("int");
 
                     b.Property<DateTime>("StartDate")
                         .HasColumnType("datetime(6)");
@@ -56,12 +56,14 @@ namespace GamingClub.Domain.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("GamingStationId");
+
                     b.HasIndex("UserId");
 
                     b.ToTable("reservation");
                 });
 
-            modelBuilder.Entity("GamingClub.Core.Entities.UserEntity", b =>
+            modelBuilder.Entity("GamingClub.Domain.Entities.UserEntity", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -81,48 +83,31 @@ namespace GamingClub.Domain.Migrations
                     b.ToTable("user");
                 });
 
-            modelBuilder.Entity("GamingStationEntityReservationEntity", b =>
+            modelBuilder.Entity("GamingClub.Domain.Entities.ReservationEntity", b =>
                 {
-                    b.Property<int>("GameStationsId")
-                        .HasColumnType("int");
+                    b.HasOne("GamingClub.Domain.Entities.GamingStationEntity", "GamingStation")
+                        .WithMany("Reservations")
+                        .HasForeignKey("GamingStationId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
-                    b.Property<int>("ReservationsId")
-                        .HasColumnType("int");
-
-                    b.HasKey("GameStationsId", "ReservationsId");
-
-                    b.HasIndex("ReservationsId");
-
-                    b.ToTable("gamingstationentityreservationentity", (string)null);
-                });
-
-            modelBuilder.Entity("GamingClub.Core.Entities.ReservationEntity", b =>
-                {
-                    b.HasOne("GamingClub.Core.Entities.UserEntity", "User")
+                    b.HasOne("GamingClub.Domain.Entities.UserEntity", "User")
                         .WithMany("Reservations")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.Navigation("GamingStation");
+
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("GamingStationEntityReservationEntity", b =>
+            modelBuilder.Entity("GamingClub.Domain.Entities.GamingStationEntity", b =>
                 {
-                    b.HasOne("GamingClub.Core.Entities.GamingStationEntity", null)
-                        .WithMany()
-                        .HasForeignKey("GameStationsId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("GamingClub.Core.Entities.ReservationEntity", null)
-                        .WithMany()
-                        .HasForeignKey("ReservationsId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                    b.Navigation("Reservations");
                 });
 
-            modelBuilder.Entity("GamingClub.Core.Entities.UserEntity", b =>
+            modelBuilder.Entity("GamingClub.Domain.Entities.UserEntity", b =>
                 {
                     b.Navigation("Reservations");
                 });

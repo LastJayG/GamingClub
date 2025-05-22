@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace GamingClub.Domain.Configurations
+namespace GamingClub.Data.Configurations
 {
     public class UserConfiguration : IEntityTypeConfiguration<UserEntity>
     {
@@ -10,8 +10,7 @@ namespace GamingClub.Domain.Configurations
         {
             builder
                 .HasMany(u => u.Reservations)
-                .WithOne(r => r.User)
-                .HasForeignKey(r => r.UserId);
+                .WithOne(r => r.User);
         }
     }
 }

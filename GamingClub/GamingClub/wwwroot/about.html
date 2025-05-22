@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - GamingClub</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/about.css">
+
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">GamingClub</a>
+
+        <nav>
+            <ul>
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About us</a></li>
+                <li><a href="tournaments.html" class="nav-link">Tournaments</a></li>
+                <li><a href="make-reservation.html" class="nav-link">Make reservation</a></li>
+            </ul>
+        </nav>
+
+        <div class="auth-buttons">
+            <a href="/Auth/Login" class="login-btn">Log in</a>
+            <a href="/Auth/Register" class="register-btn">Register</a>
+        </div>
+    </header>
+
+    <div class="content">
+        <h1>About Our Gaming Club</h1>
+        <p>Welcome to GamingClub, the ultimate destination for gamers of all levels. Founded in 2020, we've grown from a small local club to a premier gaming center with state-of-the-art facilities.</p>
+
+        <p>Our mission is to create a community where gamers can compete, socialize, and improve their skills in a friendly environment. We host regular tournaments, training sessions, and social events.</p>
+
+        <h2>Our Facilities</h2>
+        <p>• 50+ high-end gaming PCs with top specifications</p>
+        <p>• Console gaming area with PS5, Xbox Series X, and Nintendo Switch</p>
+        <p>• VR gaming zone with the latest equipment</p>
+        <p>• Comfortable lounge area with food and drinks</p>
+
+        <h2>Our Team</h2>
+        <p>We're passionate gamers ourselves, with professional esports players and coaches among our staff members who are always ready to help you improve your skills.</p>
+    </div>
+    <script>
+    window.initPage = function() {
+        console.log('Initializing page:', window.location.pathname);
+
+        document.querySelectorAll('nav a').forEach(link => {
+            if (link.getAttribute('href') === window.location.pathname) {
+                link.classList.add('active');
+            }
+        });
+
+        if (window.location.pathname === '/about.html') {
+            console.log('About page specific logic');
+        }
+        else if (window.location.pathname === '/tournaments.html') {
+            console.log('Tournaments page specific logic');
+        }
+    };
+    </script>
+</body>
+</html>

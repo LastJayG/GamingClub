@@ -17,7 +17,7 @@ namespace GamingClub.Server.Controllers
         }
 
         [HttpPost("CreateReservation")]
-        public async Task<IActionResult> CreateReservation([FromBody] ReservationCreateDTO reservationDTO)
+        public async Task<IActionResult> CreateReservation([FromBody] ReservationDTO reservationDTO)
         {
             if (!ModelState.IsValid)
             {
@@ -29,17 +29,17 @@ namespace GamingClub.Server.Controllers
             return Ok();
         }
 
-        //[HttpPut("UpdateReservation")]
-        //public async Task<IActionResult> UpdateReservation([FromBody] ReservationDTO reservationDTO)
-        //{
-        //    if (!ModelState.IsValid)
-        //    {
-        //        return BadRequest(ModelState);
-        //    }
+        [HttpPut("UpdateReservation/{id}")]
+        public async Task<IActionResult> UpdateReservation([FromBody] ReservationUpdateDTO reservationDTO, int id)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
 
-        //    await _reservationRepository.UpdateReservationAsync(reservationDTO);
-        //    return Ok();
-        //}
+            await reservationService.UpdateReservationAsync(reservationDTO, id);
+            return Ok();
+        }
 
         //[HttpDelete("DeleteReservationById")]
         //public async Task<IActionResult> DeleteReservation(int id)

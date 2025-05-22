@@ -1,8 +1,8 @@
 [
   {
-    "ContainingType": "GamingClub.Server.Controllers.GamingStationsController",
-    "Method": "GetGamingStationsAsync",
-    "RelativePath": "api/GamingStations",
+    "ContainingType": "GamingClub.Server.Controllers.AboutController",
+    "Method": "Index",
+    "RelativePath": "About",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -10,9 +10,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "GamingClub.Server.Controllers.HomeController",
-    "Method": "Index",
-    "RelativePath": "api/Home",
+    "ContainingType": "GamingClub.Server.Controllers.GamingStationsController",
+    "Method": "GetGamingStationsAsync",
+    "RelativePath": "api/GamingStations",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -46,7 +46,28 @@
     "Parameters": [
       {
         "Name": "reservationDTO",
-        "Type": "GamingClub.Application.DTOs.Reservation.ReservationCreateDTO",
+        "Type": "GamingClub.Application.DTOs.Reservation.ReservationDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GamingClub.Server.Controllers.ReservationsController",
+    "Method": "UpdateReservation",
+    "RelativePath": "api/Reservations/UpdateReservation/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "reservationDTO",
+        "Type": "GamingClub.Application.DTOs.Reservation.ReservationUpdateDTO",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],
@@ -54,7 +75,7 @@
   },
   {
     "ContainingType": "GamingClub.Server.Controllers.UsersController",
-    "Method": "GetUserByIdAsync",
+    "Method": "GetUserById",
     "RelativePath": "api/Users/{id}",
     "HttpMethod": "GET",
     "IsController": true,
@@ -79,7 +100,7 @@
     "Parameters": [
       {
         "Name": "user",
-        "Type": "GamingClub.Application.DTOs.User.UserCreateDTO",
+        "Type": "GamingClub.Application.DTOs.User.UserDTO",
         "IsRequired": true
       }
     ],
@@ -103,6 +124,38 @@
   },
   {
     "ContainingType": "GamingClub.Server.Controllers.UsersController",
+    "Method": "GetUserFromFile",
+    "RelativePath": "api/Users/FromFile/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GamingClub.Server.Controllers.UsersController",
+    "Method": "GetUserWithReservations",
+    "RelativePath": "api/Users/GetUserWithReservations/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GamingClub.Server.Controllers.UsersController",
     "Method": "UpdateUser",
     "RelativePath": "api/Users/UpdateUser/{id}",
     "HttpMethod": "PUT",
@@ -120,6 +173,26 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GamingClub.Server.Controllers.HomeController",
+    "Method": "Index",
+    "RelativePath": "Home",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GamingClub.Server.Controllers.TournamentsController",
+    "Method": "Index",
+    "RelativePath": "Tournaments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   }
 ]

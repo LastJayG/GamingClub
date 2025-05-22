@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Club - Where the Battle Starts</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/index.css">
+</head>
+<body>
+    <!-- Шапка с навигацией -->
+    <header>
+        <a href="index.html" class="logo">GamingClub</a>
+
+        <nav>
+            <ul>
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About us</a></li>
+                <li><a href="tournaments.html" class="nav-link">Tournaments</a></li>
+                <li><a href="make-reservation.html" class="nav-link">Make reservation</a></li>
+            </ul>
+        </nav>
+
+        <div class="auth-buttons">
+            <a href="/Auth/Login" class="login-btn">Log in</a>
+            <a href="/Auth/Register" class="register-btn">Register</a>
+        </div>
+    </header>
+
+    <!-- Основной контент -->
+    <section class="hero">
+        <h1>A place where the battle starts</h1>
+        <p>Join our gaming community and participate in exciting tournaments</p>
+        <a href="make-reservation.html" class="reservation-btn">Make reservation</a>
+    </section>
+
+    <!-- Галерея -->
+    <section class="gallery">
+        <img src="https://via.placeholder.com/300x200" alt="Gaming photo 1">
+        <img src="https://via.placeholder.com/300x200" alt="Gaming photo 2">
+        <img src="https://via.placeholder.com/300x200" alt="Gaming photo 3">
+        <img src="https://via.placeholder.com/300x200" alt="Gaming photo 4">
+    </section>
+
+    <!-- Подвал -->
+    <footer>
+        <div class="footer-logo">GamingClub</div>
+        <p>© 2023 All rights reserved</p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            console.log('Website loaded');
+
+            const reservationBtn = document.querySelector('.reservation-btn');
+            reservationBtn.addEventListener('click', function () {
+                console.log('Redirecting to reservation page');
+            });
+        });
+    </script>
+    <script src="/js/index.js"></script> 
+</body>
+</html>

@@ -1,5 +1,4 @@
-﻿using GamingClub.Application.DTOs;
-using GamingClub.Domain.Interfaces;
+﻿using GamingClub.Domain.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 namespace GamingClub.Server.Controllers

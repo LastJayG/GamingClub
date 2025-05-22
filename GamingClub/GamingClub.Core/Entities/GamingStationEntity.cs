@@ -8,9 +8,7 @@ namespace GamingClub.Domain.Entities
     {
         [Key]
         public int Id { get; set; }
-        public bool IsFree { get; set; }
         public GamingStationType Type {  get; set; } 
-
-        public IEnumerable<ReservationUnitEntity> ReservationUnits { get; set; }
+        public IEnumerable<ReservationEntity> Reservations { get; set; }
     }
 }

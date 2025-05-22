@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Stations Map</title>
+    <link rel="stylesheet" href="css/make-reservation.css">
+</head>
+<body>
+    <div id="stationSelection" class="selection-step active">
+        <h2>Gaming stations map</h2>
+
+        <div class="zones-container">
+            <!-- PC Zone -->
+            <div class="zone">
+                <h3>PC Zone</h3>
+                <div class="stations-map">
+                    <div class="station" data-id="1">PC №1</div>
+                    <div class="station" data-id="2">PC №2</div>
+                    <div class="station" data-id="3">PC №3</div>
+                    <div class="station" data-id="4">PC №4</div>
+                    <div class="station" data-id="5">PC №5</div>
+                    <div class="station" data-id="6">PC №6</div>
+                    <div class="station" data-id="7">PC №7</div>
+                    <div class="station" data-id="8">PC №8</div>
+                    <div class="station" data-id="9">PC №9</div>
+                    <div class="station" data-id="10">PC №10</div>
+                    <div class="station" data-id="11">PC №11</div>
+                    <div class="station" data-id="12">PC №12</div>
+                    <div class="station" data-id="13">PC №13</div>
+                    <div class="station" data-id="14">PC №14</div>
+                </div>
+            </div>
+
+            <!-- VR Zone -->
+            <div class="zone">
+                <h3>VR Zone</h3>
+                <div class="stations-map">
+                    <div class="station" data-id="101">VR №1</div>
+                    <div class="station" data-id="102">VR №2</div>
+                    <div class="station" data-id="103">VR №3</div>
+                    <div class="station" data-id="104">VR №4</div>
+                </div>
+            </div>
+
+            <!-- XBox Zone -->
+            <div class="zone">
+                <h3>XBox Zone</h3>
+                <div class="stations-map">
+                    <div class="station" data-id="201">XBox №1</div>
+                    <div class="station" data-id="202">XBox №2</div>
+                    <div class="station" data-id="203">XBox №3</div>
+                    <div class="station" data-id="204">XBox №4</div>
+                    <div class="station" data-id="205">XBox №5</div>
+                    <div class="station" data-id="206">XBox №6</div>
+                    <div class="station" data-id="207">XBox №7</div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="selected-stations">
+            <h3>Your selected stations:</h3>
+            <div class="selected-stations-list" id="selectedStationsList">
+                <!-- Выбранные станции будут добавляться сюда -->
+            </div>
+        </div>
+
+        <div class="action-buttons">
+            <button id="nextToTime" class="btn btn-confirm">Next: Select Time</button>
+            <button class="btn btn-cancel">Cancel</button>
+        </div>
+    </div>
+
+    <!-- Этап 2: Выбор времени -->
+    <div id="timeSelection" class="selection-step">
+        <h2>Select Time for Each Station</h2>
+
+        <div id="timeSelectionContainer" class="time-selection-container">
+            <!-- Здесь будут генерироваться блоки для выбора времени -->
+        </div>
+
+        <div class="action-buttons">
+            <button id="backToStations" class="btn btn-cancel">Back</button>
+            <button id="confirmReservation" class="btn btn-confirm">Confirm Reservation</button>
+        </div>
+    </div>
+
+    <!-- Этап 3: Подтверждение -->
+    <div id="confirmation" class="selection-step">
+        <h2>Reservation Confirmed</h2>
+        <div id="reservationSummary"></div>
+        <button id="backToHome" class="btn btn-confirm">Back to Home</button>
+    </div>
+    
+    <script src="js/make-reservation.js"></script>
+</body>
+</html>
