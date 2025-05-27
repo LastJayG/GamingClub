@@ -1,5 +1,8 @@
 ﻿using GamingClub.Application.DTOs.Reservation;
+using GamingClub.Application.Extensions;
 using GamingClub.Domain.Entities;
+using Google.Protobuf.WellKnownTypes;
+using System.Globalization;
 
 namespace GamingClub.Application.Mappers
 {
@@ -8,30 +11,36 @@ namespace GamingClub.Application.Mappers
         /// <summary>
         /// ReservationEntity
         /// </summary>
-        public static ReservationDTO MapToReservationDTO(this ReservationEntity entity) 
+        public static ReservationRequestDTO MapToReservationDTO(this ReservationEntity entity) 
         {
-            return new ReservationDTO
+            return new ReservationRequestDTO
             {
                 Id = entity.Id,
                 UserId = entity.UserId,
                 GamingStationId = entity.GamingStationId,
-                StartDate = entity.StartDate,
-                EndDate = entity.EndDate
+                StartTime = entity.StartDate.GetTimeCustomFormat(),
+                Date = entity.StartDate.GetDateCustomFormat(),
             };
         }
 
         /// <summary>
         /// ReservationDTO
         /// </summary>
-        public static ReservationEntity MapToReservationEntity(this ReservationDTO DTO)
+        public static ReservationEntity MapToReservationEntity(this ReservationRequestDTO DTO)
         {
+            string dateTimeStr = $"{DTO.Date} {DTO.StartTime}"; // суммируем дату и время в одну строку
+            DateTime dateTime = DateTime.ParseExact(
+                    dateTimeStr,
+                    "yyyy-MM-dd HH:mm",
+                    CultureInfo.InvariantCulture
+                );
             return new ReservationEntity
             {
                 Id = DTO.Id,
                 UserId = DTO.UserId,
                 GamingStationId = DTO.GamingStationId,
-                StartDate = DTO.Date.ToDateTime(DTO.StartTime),
-                EndDate = DTO.EndDate
+                StartDate = dateTime,
+                EndDate = dateTime + DTO.ReservationDuration
             };
         }
 

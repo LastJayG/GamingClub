@@ -5,11 +5,11 @@ using System.Text.RegularExpressions;
 
 namespace GamingClub.Application.Validation.Reservation
 {
-    public class ReservationDTOValidator : AbstractValidator<ReservationDTO>
+    public class ReservationDTOValidator : AbstractValidator<ReservationRequestDTO>
     {
         public ReservationDTOValidator() {
-            RuleFor(reservationDTO => reservationDTO.StartDate).Must(BeAValidTime).WithMessage("Enter a corect date in yyyy-MM-dd HH:mm:ss format");
-            RuleFor(reservationDTO => reservationDTO.EndDate).Must(BeAValidTime).WithMessage("Enter a corect date in yyyy-MM-dd HH:mm:ss format");
+            //RuleFor(reservationDTO => reservationDTO.StartDate).Must(BeAValidTime).WithMessage("Enter a corect date in yyyy-MM-dd HH:mm:ss format");
+            //RuleFor(reservationDTO => reservationDTO.EndDate).Must(BeAValidTime).WithMessage("Enter a corect date in yyyy-MM-dd HH:mm:ss format");
         }
 
         private bool BeAValidTime(DateTime time) {

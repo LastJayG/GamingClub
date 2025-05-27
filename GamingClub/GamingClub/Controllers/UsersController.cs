@@ -40,16 +40,16 @@ namespace GamingClub.Server.Controllers
         [HttpPost("CreateUser")]
         public async Task<IActionResult> CreateUser([FromBody] UserDTO user)
         {
-            var result = await validator.ValidateAsync(user);
+            //var result = await validator.ValidateAsync(user);
 
-            if (!result.IsValid)
-            {
-                foreach (var failure in result.Errors)
-                {
-                    Console.WriteLine("Property " + failure.PropertyName + " failed validation. Error was: " + failure.ErrorMessage);
-                }
-                return BadRequest();
-            }
+            //if (!result.IsValid)
+            //{
+            //    foreach (var failure in result.Errors)
+            //    {
+            //        Console.WriteLine("Property " + failure.PropertyName + " failed validation. Error was: " + failure.ErrorMessage);
+            //    }
+            //    return BadRequest();
+            //}
 
             await userService.CreateUserAsync(user);
 

@@ -9,13 +9,13 @@ namespace GamingClub.Application.Services
 {
     public class ReservationService(IReservationRepository reservationRepository) : IReservationService
     {
-        public async Task<ReservationDTO> GetReservationByIdAsync(int id)
+        public async Task<ReservationRequestDTO> GetReservationByIdAsync(int id)
         {
             return (await reservationRepository.GetReservationByIdAsync(id))
                     .MapToReservationDTO();
         }
 
-        public async Task CreateReservationAsync(ReservationDTO reservation)
+        public async Task CreateReservationAsync(ReservationRequestDTO reservation)
         {
             var reservationEntity = reservation.MapToReservationEntity();
             await reservationRepository.CreateReservationAsync(reservationEntity);
@@ -32,10 +32,10 @@ namespace GamingClub.Application.Services
             await reservationRepository.DeleteReservationByIdAsync(id);
         }
 
-        public async Task<List<TimeOnly>> FindAvailableTimeSlots(ReservationDTO reservationDTO, List<ReservationEntity> existingReservations)
-        {
+        //public async Task<List<TimeOnly>> FindAvailableTimeSlots(ReservationDTO reservationDTO, List<ReservationEntity> existingReservations)
+        //{
 
-        }
+        //}
         
 
         public async Task<List<TimeSpan>> ReturnAvailableReservationStartTimePointsAsync(TimeSpan timeSpan)

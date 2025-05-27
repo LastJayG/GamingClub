@@ -24,7 +24,7 @@ builder.Services.AddScoped<IReservationService, ReservationService>();
 builder.Services.AddScoped<IUserSerializer, UserSerializer>();
 
 builder.Services.AddScoped<IValidator<UserDTO>, UserDTOValidator>();
-builder.Services.AddScoped<IValidator<ReservationDTO>, ReservationDTOValidator>();
+builder.Services.AddScoped<IValidator<ReservationRequestDTO>, ReservationDTOValidator>();
 
 builder.Services.AddDbContext<GamingClubContext>();
 

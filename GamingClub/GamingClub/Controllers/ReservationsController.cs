@@ -8,7 +8,7 @@ namespace GamingClub.Server.Controllers
 {
     [ApiController]
     [Route("/api/[controller]")]
-    public class ReservationsController(IValidator<ReservationDTO> validator, 
+    public class ReservationsController(IValidator<ReservationRequestDTO> validator, 
                                         IReservationService reservationService) : Controller
     {
         [HttpGet("{id}", Name = "GetReservationById")]
@@ -20,7 +20,7 @@ namespace GamingClub.Server.Controllers
         }
 
         [HttpPost("CreateReservation")]
-        public async Task<IActionResult> CreateReservation([FromBody] ReservationDTO reservationDTO)
+        public async Task<IActionResult> CreateReservation([FromBody] ReservationRequestDTO reservationDTO)
         {
             var result = await validator.ValidateAsync(reservationDTO);
 

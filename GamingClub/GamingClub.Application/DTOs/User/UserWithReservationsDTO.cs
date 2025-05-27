@@ -7,6 +7,6 @@ namespace GamingClub.Application.DTOs.User
         public int Id { get; set; }
         public string Username { get; set; }
         public string Email { get; set; }
-        public ICollection<ReservationDTO> Reservations { get; set; }
+        public ICollection<ReservationRequestDTO> Reservations { get; set; }
     }
 }
