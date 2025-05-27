@@ -30,7 +30,7 @@ namespace GamingClub.Application.Mappers
                 Id = DTO.Id,
                 UserId = DTO.UserId,
                 GamingStationId = DTO.GamingStationId,
-                StartDate = DTO.StartDate,
+                StartDate = DTO.Date.ToDateTime(DTO.StartTime),
                 EndDate = DTO.EndDate
             };
         }
@@ -38,11 +38,12 @@ namespace GamingClub.Application.Mappers
         /// <summary>
         /// ReservationUpdateDTO
         /// </summary>
-        public static ReservationEntity MapToReservationEntity(this ReservationUpdateDTO DTO, int reservationId)
+        public static ReservationEntity MapToReservationEntity(this ReservationUpdateDTO DTO, int reservationId, int userId)
         {
             return new ReservationEntity
             {
                 Id = reservationId,
+                UserId = userId,
                 GamingStationId = DTO.GamingStationId,
                 StartDate = DTO.StartDate,
                 EndDate = DTO.EndDate

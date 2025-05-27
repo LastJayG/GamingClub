@@ -6,9 +6,8 @@
         public int UserId { get; set; }
         public int GamingStationId { get; set; }
 
-        public DateTime StartDate;
-        public DateTime EndDate;
-        public string StartDateShort => StartDate.ToString("yyyy-MM-dd HH:mm");
-        public string EndDateShort => EndDate.ToString("yyyy-MM-dd HH:mm");
+        public string ReservationDuration { get; set; }
+        public TimeOnly StartTime { get; set; }
+        public DateOnly Date {  get; set; }
     }
 }

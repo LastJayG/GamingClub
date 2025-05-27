@@ -25,7 +25,7 @@ namespace GamingClub.Data.Repositories
             var newReservation = await gamingClubContext.Reservations
                 .AsNoTracking()
                 .FirstOrDefaultAsync(r => r.Id == reservation.Id);
-
+            newReservation = reservation;
             gamingClubContext.Reservations.Update(newReservation);
             await gamingClubContext.SaveChangesAsync();
         }
@@ -39,5 +39,14 @@ namespace GamingClub.Data.Repositories
             await gamingClubContext.SaveChangesAsync();
         }
 
+        public async Task<List<DateTime>> GetAllReservationStartTimesAsync()
+        {
+            return await gamingClubContext.Reservations.Select(r => r.StartDate).ToListAsync();
+        }
+
+        public async Task<List<DateTime>> GetAllReservationEndTimesAsync()
+        {
+            return await gamingClubContext.Reservations.Select(r => r.EndDate).ToListAsync();
+        }
     }
 }

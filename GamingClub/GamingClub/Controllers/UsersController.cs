@@ -1,12 +1,13 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using GamingClub.Application.DTOs.User;
 using GamingClub.Application.Interfaces;
+using FluentValidation;
 
 namespace GamingClub.Server.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class UsersController(IUserService userService) : ControllerBase
+    public class UsersController(IValidator<UserDTO> validator, IUserService userService) : ControllerBase
     {
         [HttpGet("{id}", Name = "GetUserById")]
         public async Task<IActionResult> GetUserById(int id)
@@ -39,9 +40,15 @@ namespace GamingClub.Server.Controllers
         [HttpPost("CreateUser")]
         public async Task<IActionResult> CreateUser([FromBody] UserDTO user)
         {
-            if (!ModelState.IsValid)
+            var result = await validator.ValidateAsync(user);
+
+            if (!result.IsValid)
             {
-                return BadRequest(ModelState);
+                foreach (var failure in result.Errors)
+                {
+                    Console.WriteLine("Property " + failure.PropertyName + " failed validation. Error was: " + failure.ErrorMessage);
+                }
+                return BadRequest();
             }
 
             await userService.CreateUserAsync(user);
@@ -52,11 +59,6 @@ namespace GamingClub.Server.Controllers
         [HttpPut("UpdateUser/{id}")]
         public async Task<IActionResult> UpdateUser([FromBody] UserUpdateDTO user, [FromRoute] int id)
         {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
-
             await userService.UpdateUserAsync(user, id);
             return Ok();
         }

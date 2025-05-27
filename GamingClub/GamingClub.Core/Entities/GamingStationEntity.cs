@@ -9,6 +9,6 @@ namespace GamingClub.Domain.Entities
         [Key]
         public int Id { get; set; }
         public GamingStationType Type {  get; set; } 
-        public IEnumerable<ReservationEntity> Reservations { get; set; }
+        public virtual ICollection<ReservationEntity> Reservations { get; set; }
     }
 }
