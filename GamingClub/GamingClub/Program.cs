@@ -9,26 +9,31 @@ using GamingClub.Application.DTOs.User;
 using GamingClub.Application.Validation.User;
 using GamingClub.Application.DTOs.Reservation;
 using GamingClub.Application.Validation.Reservation;
+using Microsoft.Extensions.Caching.Memory;
 
 var builder = WebApplication.CreateBuilder();
 
 builder.Services.AddAuthentication().AddJwtBearer();
 builder.Services.AddAuthorization();
 
+builder.Services.AddMemoryCache();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
+
 builder.Services.AddScoped<IReservationRepository, ReservationRepository>();
 builder.Services.AddScoped<IGamingStationRepository, GamingStationRepository>();
 
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IReservationService, ReservationService>();
-builder.Services.AddScoped<IUserSerializer, UserSerializer>();
 
 builder.Services.AddScoped<IValidator<UserDTO>, UserDTOValidator>();
 builder.Services.AddScoped<IValidator<ReservationRequestDTO>, ReservationDTOValidator>();
 
 builder.Services.AddDbContext<GamingClubContext>();
 
-// Настройка JSON
+//Redis
+builder.Services.AddStackExchangeRedisCache(options =>
+    options.Configuration = builder.Configuration.GetConnectionString("Cache"));
+
 builder.Services.AddControllers()
     .AddJsonOptions(options =>
     {

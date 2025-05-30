@@ -1,0 +1,16 @@
+services:
+  gamingclub.server:
+    image: ${DOCKER_REGISTRY-}gamingclubserver
+    build:
+      context: .
+      dockerfile: GamingClub/Dockerfile
+    ports:
+    - "5000:5000"
+    - "5001:5001"
+
+  gamingclub.cache:
+    image: redis:latest
+    restart: always
+    ports:
+      - "6379:6379"
+     

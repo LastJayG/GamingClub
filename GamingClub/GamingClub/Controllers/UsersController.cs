@@ -27,30 +27,9 @@ namespace GamingClub.Server.Controllers
             return Ok(user);
         }
 
-        [HttpGet("FromFile/{id}")]
-        public async Task<IActionResult> GetUserFromFile(int id)
-        {
-            var user = await userService.GetUserFromFileAsync(id);
-            if (user == null)
-                return NotFound($"User file for ID {id} not found.");
-
-            return Ok(user);
-        }
-
         [HttpPost("CreateUser")]
         public async Task<IActionResult> CreateUser([FromBody] UserDTO user)
         {
-            //var result = await validator.ValidateAsync(user);
-
-            //if (!result.IsValid)
-            //{
-            //    foreach (var failure in result.Errors)
-            //    {
-            //        Console.WriteLine("Property " + failure.PropertyName + " failed validation. Error was: " + failure.ErrorMessage);
-            //    }
-            //    return BadRequest();
-            //}
-
             await userService.CreateUserAsync(user);
 
             return Ok();

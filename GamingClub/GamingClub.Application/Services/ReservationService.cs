@@ -2,7 +2,6 @@
 using GamingClub.Application.Extensions;
 using GamingClub.Application.Interfaces;
 using GamingClub.Application.Mappers;
-using GamingClub.Domain.Entities;
 using GamingClub.Domain.Interfaces;
 
 namespace GamingClub.Application.Services

@@ -9,6 +9,5 @@ namespace GamingClub.Application.Interfaces
         public Task CreateUserAsync(UserDTO user);
         public Task UpdateUserAsync(UserUpdateDTO user, int id);
         public Task DeleteUserByIdAsync(int id);
-        public Task<UserDTO?> GetUserFromFileAsync(int id);
     }
 }
