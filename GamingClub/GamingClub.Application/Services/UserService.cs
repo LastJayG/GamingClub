@@ -4,7 +4,6 @@ using GamingClub.Application.Interfaces;
 using GamingClub.Application.Mappers;
 using GamingClub.Domain.Interfaces;
 using Microsoft.Extensions.Caching.Distributed;
-using Newtonsoft.Json;
 
 namespace GamingClub.Application.Services
 {

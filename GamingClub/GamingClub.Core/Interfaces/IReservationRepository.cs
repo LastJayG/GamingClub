@@ -6,6 +6,9 @@ namespace GamingClub.Domain.Interfaces
     {
         public Task<List<DateTime>> GetAllReservationStartTimesAsync();
         public Task<List<DateTime>> GetAllReservationEndTimesAsync();
+        public Task<List<ReservationEntity>> GetAllReservationsAsync();
+        public Task<List<ReservationEntity>> GetReservationsByDateAsync(DateTime date);
+
 
         public Task<ReservationEntity> GetReservationByIdAsync(int id);
         public Task CreateReservationAsync(ReservationEntity reservation);

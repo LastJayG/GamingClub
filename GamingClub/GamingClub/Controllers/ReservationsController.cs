@@ -48,7 +48,7 @@ namespace GamingClub.Server.Controllers
         [HttpGet("GetAvailableReservationStartTimePoints")]
         public async Task<IActionResult> GetStartTimePointsForTimeSpan(TimeSpan timeSpan)
         {
-            var list = await reservationService.ReturnAvailableReservationStartTimePointsAsync(timeSpan);
+            var list = await reservationService.GetAvailableTimeSlotsAsync(timeSpan);
             return Ok(list);
         }
 
@@ -58,5 +58,6 @@ namespace GamingClub.Server.Controllers
             await reservationService.DeleteReservationByIdAsync(id);
             return Ok();
         }
+
     }
 }

@@ -1,5 +1,4 @@
 ﻿using GamingClub.Application.DTOs.Reservation;
-using GamingClub.Application.Extensions;
 using GamingClub.Application.Interfaces;
 using GamingClub.Application.Mappers;
 using GamingClub.Domain.Interfaces;
@@ -31,25 +30,47 @@ namespace GamingClub.Application.Services
             await reservationRepository.DeleteReservationByIdAsync(id);
         }
 
-        //public async Task<List<TimeOnly>> FindAvailableTimeSlots(ReservationDTO reservationDTO, List<ReservationEntity> existingReservations)
-        //{
-
-        //}
-        
-
-        public async Task<List<TimeSpan>> ReturnAvailableReservationStartTimePointsAsync(TimeSpan timeSpan)
+        public async Task<List<string>> GetAvailableTimeSlotsAsync(TimeSpan duration)
         {
-            var startDatesList = await reservationRepository.GetAllReservationStartTimesAsync();
-            var endDatesList = await reservationRepository.GetAllReservationEndTimesAsync();
-            var list = new List<TimeSpan>();
+           
+            TimeSpan openingTime = new TimeSpan(9, 0, 0); 
+            TimeSpan closingTime = new TimeSpan(23, 0, 0);
+            TimeSpan slotInterval = new TimeSpan(0, 30, 0);
 
-            for (int i = 0; i < startDatesList.Count; i++)
+            var reservations = await reservationRepository.GetReservationsByDateAsync(new DateTime(2025, 5, 27));
+
+            var allSlots = new List<TimeSpan>();
+            for (var time = openingTime; time <= closingTime - duration; time = time.Add(slotInterval))
             {
-                if (timeSpan.IsInTimeSlot(startDatesList[i].TimeOfDay, endDatesList[i].TimeOfDay)) 
-                    list.Add(timeSpan);
+                allSlots.Add(time);
             }
 
-            return list;
+            var availableSlots = new List<string>();
+
+            foreach (var slot in allSlots)
+            {
+                bool isAvailable = true;
+                TimeSpan slotEnd = slot + duration;
+
+                foreach (var reservation in reservations)
+                {
+                    TimeSpan resStart = reservation.StartDate.TimeOfDay;
+                    TimeSpan resEnd = reservation.EndDate.TimeOfDay;
+
+                    if (slot < resEnd && slotEnd > resStart)
+                    {
+                        isAvailable = false;
+                        break;
+                    }
+                }
+
+                if (isAvailable)
+                {
+                    availableSlots.Add(slot.ToString(@"hh\:mm"));
+                }
+            }
+
+            return availableSlots;
         }
 
     }

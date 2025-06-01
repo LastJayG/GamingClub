@@ -14,6 +14,13 @@ namespace GamingClub.Data.Repositories
                 .FirstOrDefaultAsync(r => r.Id == id);
         }
 
+        public async Task<List<ReservationEntity>> GetAllReservationsAsync()
+        {
+            return await gamingClubContext.Reservations
+                .AsNoTracking()
+                .ToListAsync();
+        }
+
         public async Task CreateReservationAsync(ReservationEntity reservation)
         {
             gamingClubContext.Reservations.Add(reservation);
@@ -47,6 +54,14 @@ namespace GamingClub.Data.Repositories
         public async Task<List<DateTime>> GetAllReservationEndTimesAsync()
         {
             return await gamingClubContext.Reservations.Select(r => r.EndDate).ToListAsync();
+        }
+
+        public async Task<List<ReservationEntity>> GetReservationsByDateAsync(DateTime date)
+        {
+            return await gamingClubContext.Reservations
+                .Where(r => r.StartDate.Date == date.Date)
+                .AsNoTracking()
+                .ToListAsync();
         }
     }
 }
