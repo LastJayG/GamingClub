@@ -1,12 +1,13 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using GamingClub.Application.DTOs.User;
 using GamingClub.Application.Interfaces;
+using FluentValidation;
 
 namespace GamingClub.Server.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class UsersController(IUserService userService) : ControllerBase
+    public class UsersController(IValidator<UserDTO> validator, IUserService userService) : ControllerBase
     {
         [HttpGet("{id}", Name = "GetUserById")]
         public async Task<IActionResult> GetUserById(int id)
@@ -26,24 +27,9 @@ namespace GamingClub.Server.Controllers
             return Ok(user);
         }
 
-        [HttpGet("FromFile/{id}")]
-        public async Task<IActionResult> GetUserFromFile(int id)
-        {
-            var user = await userService.GetUserFromFileAsync(id);
-            if (user == null)
-                return NotFound($"User file for ID {id} not found.");
-
-            return Ok(user);
-        }
-
         [HttpPost("CreateUser")]
         public async Task<IActionResult> CreateUser([FromBody] UserDTO user)
         {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
-
             await userService.CreateUserAsync(user);
 
             return Ok();
@@ -52,11 +38,6 @@ namespace GamingClub.Server.Controllers
         [HttpPut("UpdateUser/{id}")]
         public async Task<IActionResult> UpdateUser([FromBody] UserUpdateDTO user, [FromRoute] int id)
         {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
-
             await userService.UpdateUserAsync(user, id);
             return Ok();
         }

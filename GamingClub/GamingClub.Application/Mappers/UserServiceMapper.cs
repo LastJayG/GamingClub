@@ -1,5 +1,4 @@
-﻿using GamingClub.Application.DTOs.Reservation;
-using GamingClub.Application.DTOs.User;
+﻿using GamingClub.Application.DTOs.User;
 using GamingClub.Domain.Entities;
 
 namespace GamingClub.Application.Mappers
@@ -25,17 +24,6 @@ namespace GamingClub.Application.Mappers
             {
                 Username = entity.Username,
                 Email = entity.Email
-            };
-        }
-
-        public static UserWithReservationsDTO MapToUserWithReservationsDTO(this UserEntity entity)
-        {
-            return new UserWithReservationsDTO
-            {
-                Username = entity.Username,
-                Email = entity.Email,
-                Reservations = from reservation in entity.Reservations
-                               select reservation.MapToReservationDTO()
             };
         }
 
@@ -67,15 +55,21 @@ namespace GamingClub.Application.Mappers
         /// <summary>
         /// UserWithReservationsDTO
         /// </summary>
-        public static UserEntity MapToUserEntity(this UserWithReservationsDTO DTO)
+        public static UserWithReservationsDTO MapToUserWithReservationsDTO(this UserEntity entity)
         {
-            return new UserEntity
+            var userWithReservations = new UserWithReservationsDTO
             {
-                Username = DTO.Username,
-                Email = DTO.Email,
-                Reservations = from reservation in DTO.Reservations
-                               select reservation.MapToReservationEntity()
+                Username = entity.Username,
+                Email = entity.Email
             };
+
+            foreach (var reservation in entity.Reservations)
+            {
+                userWithReservations.Reservations.Add(reservation.MapToReservationDTO());
+            }
+
+            return userWithReservations;
         }
+
     }
 }

@@ -13,6 +13,7 @@ namespace GamingClub.Data.Configurations
                 .HasOne(r => r.User)
                 .WithMany(u => u.Reservations)
                 .HasForeignKey(r => r.UserId);
+
             builder
                 .HasOne(r => r.GamingStation)
                 .WithMany(g => g.Reservations)

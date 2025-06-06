@@ -4,30 +4,41 @@ using GamingClub.Application.Interfaces;
 using GamingClub.Application.Services;
 using GamingClub.Data.Context;
 using GamingClub.Data.Repositories;
-using GamingClub.Application.Converters;
+using FluentValidation;
+using GamingClub.Application.DTOs.User;
+using GamingClub.Application.Validation.User;
+using GamingClub.Application.DTOs.Reservation;
+using GamingClub.Application.Validation.Reservation;
 
 var builder = WebApplication.CreateBuilder();
 
 builder.Services.AddAuthentication().AddJwtBearer();
 builder.Services.AddAuthorization();
 
+//builder.Services.AddMemoryCache();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
+
 builder.Services.AddScoped<IReservationRepository, ReservationRepository>();
 builder.Services.AddScoped<IGamingStationRepository, GamingStationRepository>();
 
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IReservationService, ReservationService>();
-builder.Services.AddScoped<IUserSerializer, UserSerializer>();
+
+builder.Services.AddScoped<IValidator<UserDTO>, UserDTOValidator>();
+builder.Services.AddScoped<IValidator<UserUpdateDTO>, UserUpdateDTOValidator>();
+builder.Services.AddScoped<IValidator<ReservationRequestDTO>, ReservationDTOValidator>();
 
 builder.Services.AddDbContext<GamingClubContext>();
 
-// Настройка JSON
+//Redis
+builder.Services.AddStackExchangeRedisCache(options =>
+    options.Configuration = builder.Configuration.GetConnectionString("Cache"));
+
 builder.Services.AddControllers()
     .AddJsonOptions(options =>
     {
         options.JsonSerializerOptions.PropertyNamingPolicy = null;
         options.JsonSerializerOptions.WriteIndented = true;
-        options.JsonSerializerOptions.Converters.Add(new DateTimeConverter());
     });
 
 builder.Services.AddSwaggerGen(c =>
@@ -85,27 +96,6 @@ if (app.Environment.IsDevelopment())
 
 app.UseStaticFiles();
 
-// Обработка SPA маршрутов
-app.MapWhen(ctx => !ctx.Request.Path.StartsWithSegments("/api") &&
-                   !ctx.Request.Path.StartsWithSegments("/swagger"), appBuilder =>
-                   {
-                       appBuilder.Use(async (context, next) =>
-                       {
-                           await next();
-
-                           // Если маршрут не найден и это GET-запрос
-                           if (context.Response.StatusCode == 404 &&
-                               !Path.HasExtension(context.Request.Path.Value) &&
-                               context.Request.Method == "GET")
-                           {
-                               context.Request.Path = "/index.html";
-                               await next();
-                           }
-                       });
-
-                       appBuilder.UseStaticFiles();
-                   });
-
 app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();
@@ -113,7 +103,23 @@ app.UseAuthorization();
 app.UseEndpoints(endpoints =>
 {
     endpoints.MapControllers();
+
     endpoints.MapFallbackToFile("index.html");
 });
+
+if (app.Environment.IsDevelopment())
+{
+    app.Run(async (context) =>
+    {
+        if (context.Request.Path == "/")
+        {
+            context.Response.Redirect("/swagger");
+        }
+        else
+        {
+            await context.Response.WriteAsync("Hello from GamingClub API!");
+        }
+    });
+}
 
 app.Run();

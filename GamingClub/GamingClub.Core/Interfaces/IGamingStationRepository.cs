@@ -7,7 +7,9 @@ namespace GamingClub.Domain.Interfaces
         public Task<List<GamingStationEntity>> GetGamingStationsAsync();
         public Task<GamingStationEntity> GetGamingStationByIdAsync(int id);
         public Task CreateGamingStationAsync(GamingStationEntity gamingStation);
-        //public Task UpdateGamingStationAsync(GamingStationDTO gamingStationDTO);
+        //public Task UpdateGamingStationAsync(GamingStationEntity gamingStation);
         //public Task DeleteGamingStationByIdAsync(int id);
+
+
     }
 }
