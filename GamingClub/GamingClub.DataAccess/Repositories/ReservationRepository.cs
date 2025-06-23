@@ -56,10 +56,10 @@ namespace GamingClub.Data.Repositories
             return await gamingClubContext.Reservations.Select(r => r.EndDate).ToListAsync();
         }
 
-        public async Task<List<ReservationEntity>> GetReservationsByDateAsync(DateTime date)
+        public async Task<List<ReservationEntity>> GetReservationsByDateAsync(DateTime date, int stationId)
         {
             return await gamingClubContext.Reservations
-                .Where(r => r.StartDate.Date == date.Date)
+                .Where(r => r.StartDate.Date == date.Date && r.GamingStationId == stationId)
                 .AsNoTracking()
                 .ToListAsync();
         }

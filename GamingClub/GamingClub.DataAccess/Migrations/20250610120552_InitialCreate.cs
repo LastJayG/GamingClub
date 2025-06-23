@@ -35,7 +35,7 @@ namespace GamingClub.Data.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("MySQL:ValueGenerationStrategy", MySQLValueGenerationStrategy.IdentityColumn),
-                    Username = table.Column<string>(type: "varchar(30)", maxLength: 30, nullable: false),
+                    Username = table.Column<string>(type: "longtext", nullable: false),
                     Email = table.Column<string>(type: "longtext", nullable: false)
                 },
                 constraints: table =>

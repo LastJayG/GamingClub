@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace GamingClub.Data.Migrations
 {
     [DbContext(typeof(GamingClubContext))]
-    [Migration("20250520175507_InitialCreate")]
+    [Migration("20250610120552_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -75,8 +75,7 @@ namespace GamingClub.Data.Migrations
 
                     b.Property<string>("Username")
                         .IsRequired()
-                        .HasMaxLength(30)
-                        .HasColumnType("varchar(30)");
+                        .HasColumnType("longtext");
 
                     b.HasKey("Id");
 

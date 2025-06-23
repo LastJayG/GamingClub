@@ -1,6 +1,5 @@
 ﻿using FluentValidation;
 using GamingClub.Application.DTOs.Reservation;
-using GamingClub.Application.DTOs.User;
 using GamingClub.Application.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
@@ -46,9 +45,9 @@ namespace GamingClub.Server.Controllers
         }
 
         [HttpGet("GetAvailableReservationStartTimePoints")]
-        public async Task<IActionResult> GetStartTimePointsForTimeSpan(TimeSpan timeSpan)
+        public async Task<IActionResult> GetStartTimePointsForTimeSpan(TimeSpan timeSpan, int stationId, DateTime date)
         {
-            var list = await reservationService.GetAvailableTimeSlotsAsync(timeSpan);
+            var list = await reservationService.GetAvailableTimeSlotsAsync(timeSpan, stationId, date);
             return Ok(list);
         }
 

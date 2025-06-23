@@ -11,8 +11,6 @@ namespace GamingClub.Application.Validation.Reservation
             RuleFor(DTO => DTO.StartTime).Must(BeAValidTime).WithMessage("Enter a correct time in HH:mm format");
             RuleFor(DTO => DTO.Date).Must(BeAValidDate).WithMessage("Enter a correct date in yyyy-MM-dd format");
             RuleFor(DTO => DTO.ReservationDuration).Must(BeAValidDuration).WithMessage("Enter a correct duration in HH:mm format");
-            //Можно ли при валидации обращаться к БД? Я бы тут достала список существующих айди вместо статического списка внутри этого класса
-            //RuleFor(DTO => DTO.GamingStationId).Must(BeAnExistingId); 
         }
 
         private bool BeAValidTime(string time) {

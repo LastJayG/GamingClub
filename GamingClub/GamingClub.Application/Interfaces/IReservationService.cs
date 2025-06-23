@@ -9,7 +9,7 @@ namespace GamingClub.Application.Interfaces
         public Task UpdateReservationAsync(ReservationUpdateDTO reservation, int id, int userId);
         public Task DeleteReservationByIdAsync(int id);
 
-        public Task<List<string>> GetAvailableTimeSlotsAsync(TimeSpan duration);
+        public Task<List<string>> GetAvailableTimeSlotsAsync(TimeSpan duration, int stationId, DateTime date);
 
     }
 }

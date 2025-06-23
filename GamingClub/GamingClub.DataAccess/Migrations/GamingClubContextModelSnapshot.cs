@@ -72,8 +72,7 @@ namespace GamingClub.Data.Migrations
 
                     b.Property<string>("Username")
                         .IsRequired()
-                        .HasMaxLength(30)
-                        .HasColumnType("varchar(30)");
+                        .HasColumnType("longtext");
 
                     b.HasKey("Id");
 

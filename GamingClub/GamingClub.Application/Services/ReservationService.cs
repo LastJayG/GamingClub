@@ -30,14 +30,14 @@ namespace GamingClub.Application.Services
             await reservationRepository.DeleteReservationByIdAsync(id);
         }
 
-        public async Task<List<string>> GetAvailableTimeSlotsAsync(TimeSpan duration)
+        public async Task<List<string>> GetAvailableTimeSlotsAsync(TimeSpan duration, int stationId, DateTime date)
         {
            
             TimeSpan openingTime = new TimeSpan(9, 0, 0); 
             TimeSpan closingTime = new TimeSpan(23, 0, 0);
             TimeSpan slotInterval = new TimeSpan(0, 30, 0);
 
-            var reservations = await reservationRepository.GetReservationsByDateAsync(new DateTime(2025, 5, 27));
+            var reservations = await reservationRepository.GetReservationsByDateAsync(date, stationId);
 
             var allSlots = new List<TimeSpan>();
             for (var time = openingTime; time <= closingTime - duration; time = time.Add(slotInterval))
