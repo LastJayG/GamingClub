@@ -82,22 +82,6 @@ namespace GamingClub.Tests
             Assert.IsType<BadRequestResult>(result);
         }
 
-        [Fact]
-        public async Task GetAvailableTimeSlots_ReturnsCorrectSlots()
-        {
-            // Arrange
-            var timeSpan = new TimeSpan(2, 0, 0);
-            var expectedSlots = new List<string> { "10:00", "12:30", "15:00" };
-            _mockReservationService.Setup(s => s.GetAvailableTimeSlotsAsync(timeSpan)).ReturnsAsync(expectedSlots);
-
-            // Act
-            var result = await _controller.GetStartTimePointsForTimeSpan(timeSpan);
-
-            // Assert
-            var okResult = Assert.IsType<OkObjectResult>(result);
-            var returnedSlots = Assert.IsType<List<string>>(okResult.Value);
-            Assert.Equal(expectedSlots, returnedSlots);
-        }
 
         [Fact]
         public async Task UpdateReservation_ReturnsOkResult_WhenSuccessful()

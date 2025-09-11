@@ -7,6 +7,11 @@ namespace GamingClub.Application.Services
 {
     public class ReservationService(IReservationRepository reservationRepository) : IReservationService
     {
+
+        private readonly TimeSpan _openingTime = new (9, 0, 0);
+        private readonly TimeSpan _closingTime = new (23, 0, 0);
+        private readonly TimeSpan _slotInterval = new (0, 30, 0);
+
         public async Task<ReservationRequestDTO> GetReservationByIdAsync(int id)
         {
             return (await reservationRepository.GetReservationByIdAsync(id))
@@ -30,17 +35,13 @@ namespace GamingClub.Application.Services
             await reservationRepository.DeleteReservationByIdAsync(id);
         }
 
-        public async Task<List<string>> GetAvailableTimeSlotsAsync(TimeSpan duration)
+        public async Task<List<string>> GetAvailableTimeSlotsAsync(TimeSpan duration, int stationId, DateTime date)
         {
-           
-            TimeSpan openingTime = new TimeSpan(9, 0, 0); 
-            TimeSpan closingTime = new TimeSpan(23, 0, 0);
-            TimeSpan slotInterval = new TimeSpan(0, 30, 0);
 
-            var reservations = await reservationRepository.GetReservationsByDateAsync(new DateTime(2025, 5, 27));
+            var reservations = await reservationRepository.GetReservationsByDateAsync(date, stationId);
 
             var allSlots = new List<TimeSpan>();
-            for (var time = openingTime; time <= closingTime - duration; time = time.Add(slotInterval))
+            for (var time = _openingTime; time <= _closingTime - duration; time = time.Add(_slotInterval))
             {
                 allSlots.Add(time);
             }

@@ -11,6 +11,7 @@ namespace GamingClub.Data.Configurations
             builder
                 .HasMany(u => u.Reservations)
                 .WithOne(r => r.User);
+
         }
     }
 }

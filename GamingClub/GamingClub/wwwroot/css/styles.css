@@ -8,8 +8,15 @@ body {
 }
 
 header {
-    background-color: #1a1a2e;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(480px, 1fr));
+    justify-content: center;
+    align-items: center;
     padding: 20px 10%;
+    background-color: #1a1a2e;
+    border-bottom: 2px solid #4cc9f0;
+    position: fixed;
+    width: 100%;
 }
 
 nav ul {
@@ -20,11 +27,20 @@ nav ul {
     padding: 0;
 }
 
+h1 {
+        font-size: 48px;
+        margin-bottom: 30px;
+        color: #4cc9f0;
+        font-family: "Press Start 2P", system-ui;
+    }
+
 nav a {
     color: white;
     text-decoration: none;
     font-weight: 500;
     transition: color 0.3s;
+                font-family: "Play", sans-serif;
+            font-size: 24px;
 }
 
     nav a:hover {
